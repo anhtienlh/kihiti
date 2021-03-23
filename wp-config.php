@@ -26,10 +26,10 @@ define('DB_NAME', 'kihiti');
 define('DB_USER', 'kihiti-admin');
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', 'admin');
+define('DB_PASSWORD', 'db2021@#$');
 
 /** Hostname của database */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'kihiti.mysql.database.azure.com');
 
 /** Database charset sử dụng để tạo bảng database. */
 define('DB_CHARSET', 'utf8');
