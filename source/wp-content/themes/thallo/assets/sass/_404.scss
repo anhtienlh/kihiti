@@ -1,0 +1,18 @@
+.content-404-wrapper {
+	text-align: center;
+
+	h2 {
+		font-size: 12rem;
+		@extend %accent-text-color;
+	}
+
+	h4 {
+		font-size: 36px;
+		@extend %heading-color;
+		margin-bottom: 15px;
+	}
+
+	p {
+		margin-bottom: 45px;
+	}
+}

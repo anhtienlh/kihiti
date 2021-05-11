@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------
+## Site layout style
+--------------------------------------------------------------*/
+#site-wrapper {
+	background-color: $color_background_body;
+}
+#primary-content {
+	padding-top: 80px;
+	padding-bottom: 130px;
+}
+#sidebar {
+	@include flex(0 0 #{$sidebar_width}#{"%"});
+	max-width: #{$sidebar_width}#{"%"};
+}
+
+@media (min-width: $desktop_width) {
+	.primary-sidebar-inner {
+		padding-left: 40px;
+	}
+
+	#sidebar.order-lg-first .primary-sidebar-inner {
+		padding-left: 0;
+		padding-right: 40px;
+	}
+}
+
+
+body:not(.has-sidebar) {
+	#main-content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+body.has-sidebar {
+	#main-content {
+		@include flex(0 0 #{100 - $sidebar_width}#{"%"});
+		max-width: #{100 - $sidebar_width}#{"%"};
+	}
+}
+
+body.single-post.no-sidebar {
+	#main-content {
+		@include flex(0 0 ($content_width + $grid_gutter_width));
+		max-width: $content_width + $grid_gutter_width;
+	}
+}
+
+@include media-xl() {
+	.container {
+		max-width: $container_width;
+	}
+}
+@include media-lg() {
+	body.single-post.no-sidebar {
+		#main-content {
+			@include flex(0 0 900px);
+			max-width: 900px;
+		}
+	}
+}
+
+@include media-md() {
+	#main-content {
+		@include flex(0 0 100%, important);
+		max-width: 100%!important;
+	}
+
+	#sidebar {
+		@include flex(0 0 100%);
+		max-width: 100%;
+		margin-top: 2rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	body.g5core__stretched_content {
+		#sidebar {
+			@include flex(0 0 #{$sidebar_stretched_width}#{"%"});
+			max-width: #{$sidebar_stretched_width}#{"%"};
+		}
+
+		&.has-sidebar {
+			#main-content {
+				@include flex(0 0 #{100 - $sidebar_stretched_width}#{"%"});
+				max-width: #{100 - $sidebar_stretched_width}#{"%"};
+			}
+		}
+
+	}
+}

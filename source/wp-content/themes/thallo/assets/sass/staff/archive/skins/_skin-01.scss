@@ -1,0 +1,31 @@
+.g5staff__post-skin-01 {
+	.g5staff__post-inner {
+		@include d-flex();
+		@include align-items-center();
+		@include border-radius(5px);
+		@include box-shadow(0 0 0 1px $color_border);
+		@include transition(box-shadow .3s);
+		&:hover {
+			@include box-shadow(0 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+		}
+	}
+	.g5staff__post-featured {
+		width: 200px;
+		@include flex-shrink-0();
+		margin-bottom: 0;
+		@include align-self-stretch();
+
+	}
+
+	.g5core__entry-thumbnail {
+		@include border-radius(5px 0 0 5px);
+		&:after {
+			display: none;
+		}
+	}
+
+	.g5staff__post-content {
+		padding: 40px 25px;
+		@include flex-fill();
+	}
+}

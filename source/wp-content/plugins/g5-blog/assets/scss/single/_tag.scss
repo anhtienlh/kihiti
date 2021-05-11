@@ -1,0 +1,22 @@
+.g5blog__single-meta-tag {
+  a {
+    + a {
+      margin-left: 5px;
+    }
+  }
+}
+
+
+
+
+.g5blog__tag-label {
+  margin-right: 10px;
+  &:before {
+    content: '\f02c';
+    font-family: "Font Awesome 5 Pro";
+    font-size: 14px;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 5px;
+  }
+}

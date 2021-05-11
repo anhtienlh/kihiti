@@ -1,0 +1,721 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Works\n"
+"POT-Creation-Date: 2019-10-15 17:23+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-works.php:61
+msgid ""
+"G5 Works is enabled but not effective. It requires G5 Core in order to "
+"work."
+msgstr ""
+
+#: inc/admin/permalink.class.php:32
+msgid "Works base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:40
+msgid "Works category base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:70
+msgctxt "slug"
+msgid "works"
+msgstr ""
+
+#: inc/admin/permalink.class.php:71
+msgctxt "slug"
+msgid "works-cat"
+msgstr ""
+
+#: inc/admin/post-types.class.php:49 inc/config-options.class.php:34
+#: inc/config-options.class.php:45 templates/shortcodes/works/config.php:8
+msgid "Works"
+msgstr ""
+
+#: inc/admin/post-types.class.php:61 inc/admin/post-types.class.php:86
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:62
+msgid "Works Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:63
+msgid "Category"
+msgstr ""
+
+#: inc/admin/post-types.class.php:84
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin/post-types.class.php:87 inc/functions/helper.php:38
+msgid "Featured"
+msgstr ""
+
+#: inc/admin/post-types.class.php:152
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/admin/post-types.class.php:186
+msgid "Visit Works"
+msgstr ""
+
+#: inc/assets.class.php:44 inc/functions/helper.php:99
+msgid "Select a category"
+msgstr ""
+
+#: inc/assets.class.php:45
+msgid "No matches found"
+msgstr ""
+
+#: inc/config-options.class.php:44
+msgid "Works Options"
+msgstr ""
+
+#: inc/config-options.class.php:61
+msgid "Archive Listing"
+msgstr ""
+
+#: inc/config-options.class.php:66
+msgid "Category Filter Enable"
+msgstr ""
+
+#: inc/config-options.class.php:67
+msgid "Turn On this option if you want to enable category filter"
+msgstr ""
+
+#: inc/config-options.class.php:72
+#: templates/shortcodes/works-slider/config.php:22
+#: templates/shortcodes/works/config.php:22
+msgid "Category Filter Align"
+msgstr ""
+
+#: inc/config-options.class.php:73
+msgid "Specify your category filter align"
+msgstr ""
+
+#: inc/config-options.class.php:81
+#: templates/shortcodes/works-slider/config.php:87
+#: templates/shortcodes/works/config.php:103
+msgid "Append Categories"
+msgstr ""
+
+#: inc/config-options.class.php:82
+#: templates/shortcodes/works-slider/config.php:91
+#: templates/shortcodes/works/config.php:107
+msgid ""
+"Change where the categories are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/config-options.class.php:90
+#: templates/shortcodes/works/config.php:30
+msgid "Layout"
+msgstr ""
+
+#: inc/config-options.class.php:91
+#: templates/shortcodes/works/config.php:31
+msgid "Specify your works layout"
+msgstr ""
+
+#: inc/config-options.class.php:98
+#: templates/shortcodes/works-slider/config.php:30
+#: templates/shortcodes/works/config.php:39
+msgid "Item Skin"
+msgstr ""
+
+#: inc/config-options.class.php:99
+msgid "Specify your works item skin"
+msgstr ""
+
+#: inc/config-options.class.php:106
+#: templates/shortcodes/works-slider/config.php:39
+#: templates/shortcodes/works/config.php:47
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:107
+#: templates/shortcodes/works-slider/config.php:40
+#: templates/shortcodes/works/config.php:48
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/config-options.class.php:113 inc/config-options.class.php:348
+#: templates/shortcodes/works-slider/config.php:57
+#: templates/shortcodes/works/config.php:65
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:114
+msgid "Specify your horizontal space between item."
+msgstr ""
+
+#: inc/config-options.class.php:121 inc/config-options.class.php:357
+#: templates/shortcodes/works-slider/config.php:97
+#: templates/shortcodes/works/config.php:113
+msgid "Columns"
+msgstr ""
+
+#: inc/config-options.class.php:132 inc/config-options.class.php:368
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:133
+msgid "Specify your columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:141 inc/config-options.class.php:377
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:142
+msgid "Specify your columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:150 inc/config-options.class.php:386
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-options.class.php:151
+msgid "Specify your columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:166
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:167
+msgid "Specify your columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:175
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:176
+msgid "Specify your columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:188
+#: templates/shortcodes/works-slider/config.php:102
+#: templates/shortcodes/works/config.php:117
+msgid "Image size"
+msgstr ""
+
+#: inc/config-options.class.php:189
+msgid "Enter your image size"
+msgstr ""
+
+#: inc/config-options.class.php:190
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:197
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/config-options.class.php:198
+msgid "Enter image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:207 inc/functions/helper.php:75
+msgid "Sorting"
+msgstr ""
+
+#: inc/config-options.class.php:212
+msgid "Order By"
+msgstr ""
+
+#: inc/config-options.class.php:213 inc/functions/helper.php:69
+msgid "Select how to sort retrieved works."
+msgstr ""
+
+#: inc/config-options.class.php:220
+msgid "Order"
+msgstr ""
+
+#: inc/config-options.class.php:221 inc/functions/helper.php:81
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/config-options.class.php:232 inc/config-options.class.php:339
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/config-options.class.php:233
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:240 inc/config-options.class.php:424
+msgid "Post Paging"
+msgstr ""
+
+#: inc/config-options.class.php:241 inc/config-options.class.php:425
+#: templates/shortcodes/works/config.php:88
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:248
+#: templates/shortcodes/works-slider/config.php:79
+#: templates/shortcodes/works/config.php:95
+msgid "Animation"
+msgstr ""
+
+#: inc/config-options.class.php:249
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/config-options.class.php:256
+#: templates/shortcodes/works-slider/config.php:45
+#: templates/shortcodes/works/config.php:53
+msgid "Show Category"
+msgstr ""
+
+#: inc/config-options.class.php:261
+#: templates/shortcodes/works-slider/config.php:51
+#: templates/shortcodes/works/config.php:59
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/config-options.class.php:272
+msgid "Single Works"
+msgstr ""
+
+#: inc/config-options.class.php:277
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:278
+msgid "Turn Off this option if you want to hide navigation on single"
+msgstr ""
+
+#: inc/config-options.class.php:283
+msgid "Comment"
+msgstr ""
+
+#: inc/config-options.class.php:284
+msgid "Turn Off this option if you want to hide comment on single"
+msgstr ""
+
+#: inc/config-options.class.php:289
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:290
+msgid "Turn Off this option if you want to hide share on single works"
+msgstr ""
+
+#: inc/config-options.class.php:295
+msgid "Social Share"
+msgstr ""
+
+#: inc/config-options.class.php:296
+msgid "Select active social share links and sort them"
+msgstr ""
+
+#: inc/config-options.class.php:318 inc/config-options.class.php:324
+#: templates/single/related.php:121
+msgid "Related Works"
+msgstr ""
+
+#: inc/config-options.class.php:325
+msgid "Turn Off this option if you want to hide related works"
+msgstr ""
+
+#: inc/config-options.class.php:330
+msgid "Related Algorithm"
+msgstr ""
+
+#: inc/config-options.class.php:331
+msgid "Specify the algorithm of related works"
+msgstr ""
+
+#: inc/config-options.class.php:340
+msgid "Enter number of works per page you want to display"
+msgstr ""
+
+#: inc/config-options.class.php:349
+#: templates/shortcodes/works-slider/config.php:58
+#: templates/shortcodes/works/config.php:66
+msgid "Specify your horizontal space between works."
+msgstr ""
+
+#: inc/config-options.class.php:369
+msgid "Specify your post columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:378
+msgid "Specify your post columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:387
+msgid "Specify your post columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:402
+msgid "Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:403
+msgid "Specify your post columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:411
+msgid "Extra Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:412
+msgid "Specify your post columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/functions/helper.php:18
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/functions/helper.php:22
+msgid ""
+"Enter categories by names to narrow output (Note: only listed "
+"categories will be displayed, divide categories with linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/helper.php:33
+msgid "Show"
+msgstr ""
+
+#: inc/functions/helper.php:36
+msgid "All"
+msgstr ""
+
+#: inc/functions/helper.php:37
+msgid "New In"
+msgstr ""
+
+#: inc/functions/helper.php:39 inc/functions/helper.php:50
+msgid "Narrow Works"
+msgstr ""
+
+#: inc/functions/helper.php:42 inc/functions/helper.php:46
+#: inc/functions/helper.php:60 inc/functions/helper.php:71
+#: inc/functions/helper.php:79
+msgid "Works Filter"
+msgstr ""
+
+#: inc/functions/helper.php:58
+msgid "Enter List of Works"
+msgstr ""
+
+#: inc/functions/helper.php:65
+msgid "Order by"
+msgstr ""
+
+#: inc/settings.class.php:20
+msgid "Left"
+msgstr ""
+
+#: inc/settings.class.php:21
+msgid "Center"
+msgstr ""
+
+#: inc/settings.class.php:29
+msgid "Grid"
+msgstr ""
+
+#: inc/settings.class.php:36 inc/settings.class.php:76
+#: inc/settings.class.php:96
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:49
+msgid "Skin 01"
+msgstr ""
+
+#: inc/settings.class.php:53
+msgid "Skin 02"
+msgstr ""
+
+#: inc/settings.class.php:57
+msgid "Skin 03"
+msgstr ""
+
+#: inc/settings.class.php:61
+msgid "Skin 04"
+msgstr ""
+
+#: inc/settings.class.php:65
+msgid "Skin 05"
+msgstr ""
+
+#: inc/settings.class.php:69
+msgid "Skin 06"
+msgstr ""
+
+#: inc/settings.class.php:88
+msgid "by Category"
+msgstr ""
+
+#: inc/settings.class.php:89
+msgid "by Author"
+msgstr ""
+
+#: inc/settings.class.php:90
+msgid "by Category & Author"
+msgstr ""
+
+#: inc/settings.class.php:91
+msgid "Randomly"
+msgstr ""
+
+#: inc/settings.class.php:106
+msgid "Date"
+msgstr ""
+
+#: inc/settings.class.php:107 inc/widgets/categories.class.php:33
+#: inc/widgets/search.class.php:18
+msgid "Title"
+msgstr ""
+
+#: inc/settings.class.php:108
+msgid "Random"
+msgstr ""
+
+#: inc/settings.class.php:109
+msgid "Menu Order"
+msgstr ""
+
+#: inc/settings.class.php:115
+msgid "ASC"
+msgstr ""
+
+#: inc/settings.class.php:116
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/categories.class.php:27
+msgid "G5Plus: Works Categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:28
+msgid "A list or dropdown of works categories."
+msgstr ""
+
+#: inc/widgets/categories.class.php:35
+msgid "Works categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:40
+msgid "Show as dropdown"
+msgstr ""
+
+#: inc/widgets/categories.class.php:46
+msgid "Show works counts"
+msgstr ""
+
+#: inc/widgets/categories.class.php:52
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/widgets/categories.class.php:58
+msgid "Only show children of the current category"
+msgstr ""
+
+#: inc/widgets/categories.class.php:64
+msgid "Hide empty categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:69
+msgid "Maximum depth"
+msgstr ""
+
+#: inc/widgets/categories.class.php:221
+msgid "No works categories exist."
+msgstr ""
+
+#: inc/widgets/search.class.php:12
+msgid "G5Plus: Works Search"
+msgstr ""
+
+#: inc/widgets/search.class.php:13
+msgid "A search form for your works."
+msgstr ""
+
+#: templates/loop/listing/content-none.php:7
+msgid "No works were found matching your selection."
+msgstr ""
+
+#: templates/searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: templates/searchform.php:10
+msgid "Search works&hellip;"
+msgstr ""
+
+#: templates/searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:8
+msgid "Works Slider"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:9
+msgid "Display slider of works"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:16
+#: templates/shortcodes/works/config.php:16
+msgid "Category Filter"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:31
+msgid "Specify your works item skin."
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:65
+msgid "Works Per Page"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:66
+#: templates/shortcodes/works/config.php:74
+msgid "Enter number of works per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:72
+#: templates/shortcodes/works/config.php:80
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:73
+#: templates/shortcodes/works/config.php:81
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:80
+#: templates/shortcodes/works/config.php:96
+msgid "Specify your works animation"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:98
+msgid "Slider Options"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:103
+#: templates/shortcodes/works/config.php:118
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:106
+#: templates/shortcodes/works-slider/config.php:116
+#: templates/shortcodes/works-slider/config.php:126
+#: templates/shortcodes/works/config.php:122
+#: templates/shortcodes/works/config.php:132
+#: templates/shortcodes/works/config.php:142
+msgid "Image Size"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:110
+#: templates/shortcodes/works/config.php:126
+msgid "Image ratio width"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:111
+#: templates/shortcodes/works/config.php:127
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:120
+#: templates/shortcodes/works/config.php:136
+msgid "Image ratio height"
+msgstr ""
+
+#: templates/shortcodes/works-slider/config.php:121
+#: templates/shortcodes/works/config.php:137
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: templates/shortcodes/works/config.php:9
+msgid "Display list of works"
+msgstr ""
+
+#: templates/shortcodes/works/config.php:73
+msgid "Services Per Page"
+msgstr ""
+
+#: templates/shortcodes/works/config.php:87
+msgid "Paging"
+msgstr ""
+
+#: templates/single/navigation.php:7
+msgid "Previous"
+msgstr ""
+
+#: templates/single/navigation.php:8
+msgid "Next"
+msgstr ""
+
+#: templates/single/navigation.php:20
+#, php-format
+msgid "%s navigation"
+msgstr ""
+
+#: templates/single/share.php:13
+msgid "Share:"
+msgstr ""
+
+#: templates/single/share.php:24
+msgid "Facebook"
+msgstr ""
+
+#: templates/single/share.php:29
+msgid "Twitter"
+msgstr ""
+
+#: templates/single/share.php:34
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/single/share.php:39
+msgid "Tumblr"
+msgstr ""
+
+#: templates/single/share.php:45
+msgid "Pinterest"
+msgstr ""
+
+#: templates/single/share.php:50
+msgid "Email"
+msgstr ""
+
+#: templates/single/share.php:59
+msgid "Whats App"
+msgstr ""

@@ -1,0 +1,109 @@
+$font_body: 'Open Sans';
+$font_primary: 'Work Sans';
+$font_blockquote: 'Open Sans';
+$font_pre: "Courier 10 Pitch", Courier, monospace;
+$font_icon: 'Font Awesome 5 Pro';
+
+$font_size_base: 16px;
+
+$font_size_xxs:   0.625rem;
+$font_size_xs:    0.75rem;
+$font_size_sm:    0.875rem;
+$font_size_md:    1rem;
+$font_size_lg:    1.5rem;
+$font_size_xl:    2rem;
+$font_size_xxl:   2.5rem;
+$font_size_xxxl:  3rem;
+
+
+$font_size_h1: 48px;
+$font_size_h2: 36px;
+$font_size_h3: 30px;
+$font_size_h4: 24px;
+$font_size_h5: 20px;
+$font_size_h6: 16px;
+
+
+$font_weight_heading: 700;
+
+$font_line_height_body: 1.625;
+$font_line_height_heading: 1.2;
+
+$margin_element: 1.5rem;
+$margin_comment_element: 22px;
+
+$header_height: 100px;
+$header_height_sticky: 80px;
+
+$header_mobile_height: 100px;
+$header_mobile_height_sticky: 80px;
+
+$navigation_height: 80px;
+
+// Responsive widths.
+$small_mobile_width: 320px;
+$mobile_width: 576px;
+$tablet_width: 768px;
+$desktop_width: 992px;
+$wide_width: 1200px;
+$container_width: 1200px;
+$grid_gutter_width: 30px;
+$sidebar_width: 33.3333;
+//$content_width: 830px;
+$content_width: 870px;
+
+$sidebar_stretched_width: 25;
+
+// Text Color
+$color_accent: #4b2bb0;
+$color_text_gray: #767676;
+$color_text-light: #aaa;
+$color_primary: #4f4f6f;
+$color_secondary: #6428cb;
+$color_light: #fafafa;
+$color_dark: #222;
+$color_gray: #b6b6b6;
+
+$color_text_main: #7d7d7d;
+$color_text_code: #e83e8c;
+$color_text_heading: #000;
+$color_text_caption: #ababab;
+$color_border: #ebebeb;
+$color_disabled: #ccc;
+
+// Backgrounds Color
+$color_background_body: #fff;
+$color_background_mark: #fff9c0;
+$color_background_pre: #fff9c0;
+$color_background_page_title: #f2f9ff;
+$color_background_post_sticky: #f2f9ff;
+$color_background_page_footer: #f6f6f6;
+
+// Input
+$color_text_input: #000;
+$color_background_input: #f1f8fc;
+$color_border_input: #f1f8fc;
+$color_border_input_focus: #f1f8fc;
+$color_placeholder: #7d7d7d;
+$height__input: 50px;
+
+// Links Color
+$color_link: #4b2bb0;
+$color_link_hover: lighten( $color_link, 10% );
+
+
+// Menu variable
+$font_menu: 'Open Sans';
+$font_sub_menu: 'Open Sans';
+$font_size_menu: 16px;
+$font_size_sub_menu: 16px;
+$font_size_menu_mobile: 14px;
+
+$color_menu: #000000;
+$color_menu_hover: #4b2bb0;
+$color_menu_border:#ebebeb;
+$color_submenu: #7d7d7d;
+$color_submenu_hover: #4b2bb0;
+$color_submenu_bg: #fff;
+$color_submenu_item_bg_hover : #fff;
+$color_submenu_border_hover: #ebebeb;

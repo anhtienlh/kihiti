@@ -1,0 +1,7 @@
+@import "table";
+
+@media (min-width: 992px){
+	#case-filter-top ul.g5core__cate-filer {
+		@include justify-content-end();
+	}
+}

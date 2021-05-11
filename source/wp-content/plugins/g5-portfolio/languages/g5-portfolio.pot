@@ -1,0 +1,1090 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Portfolio\n"
+"POT-Creation-Date: 2019-10-10 11:19+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-portfolio.php:58
+msgid ""
+"G5 Portfolio is enabled but not effective. It requires G5 Core in order "
+"to work."
+msgstr ""
+
+#: inc/admin/permalink.class.php:33
+msgid "Portfolio base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:41
+msgid "Portfolio category base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:49
+msgid "Portfolio tag base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:84
+msgctxt "slug"
+msgid "portfolio"
+msgstr ""
+
+#: inc/admin/permalink.class.php:85
+msgctxt "slug"
+msgid "portfolio-cat"
+msgstr ""
+
+#: inc/admin/permalink.class.php:86
+msgctxt "slug"
+msgid "portfolio-tag"
+msgstr ""
+
+#: inc/admin/post-types.class.php:50 inc/config-options.class.php:36
+#: inc/config-options.class.php:47
+#: templates/shortcodes/portfolio/config.php:8
+msgid "Portfolio"
+msgstr ""
+
+#: inc/admin/post-types.class.php:62 inc/admin/post-types.class.php:95
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:63
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:64
+msgid "Category"
+msgstr ""
+
+#: inc/admin/post-types.class.php:71
+msgid "Tags"
+msgstr ""
+
+#: inc/admin/post-types.class.php:72
+msgid "Portfolio Tags"
+msgstr ""
+
+#: inc/admin/post-types.class.php:73
+msgid "Tag"
+msgstr ""
+
+#: inc/admin/post-types.class.php:93
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin/post-types.class.php:96 inc/functions/helper.php:47
+#: inc/widgets/portfolio.class.php:29
+msgid "Featured"
+msgstr ""
+
+#: inc/admin/post-types.class.php:161
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/admin/post-types.class.php:195
+msgid "Visit Portfolios"
+msgstr ""
+
+#: inc/assets.class.php:44 inc/functions/helper.php:108
+msgid "Select a category"
+msgstr ""
+
+#: inc/assets.class.php:45
+msgid "No matches found"
+msgstr ""
+
+#: inc/config-options.class.php:46
+msgid "Portfolio Options"
+msgstr ""
+
+#: inc/config-options.class.php:63
+msgid "Archive Listing"
+msgstr ""
+
+#: inc/config-options.class.php:68
+msgid "Category Filter Enable"
+msgstr ""
+
+#: inc/config-options.class.php:69
+msgid "Turn On this option if you want to enable category filter"
+msgstr ""
+
+#: inc/config-options.class.php:74
+#: templates/shortcodes/portfolio-slider/config.php:79
+#: templates/shortcodes/portfolio/config.php:96
+msgid "Append Categories"
+msgstr ""
+
+#: inc/config-options.class.php:75
+#: templates/shortcodes/portfolio-slider/config.php:83
+#: templates/shortcodes/portfolio/config.php:100
+msgid ""
+"Change where the categories are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/config-options.class.php:83 inc/config-options.class.php:317
+#: inc/config-options.class.php:372 inc/config-options.class.php:735
+#: inc/config-options.class.php:755 inc/widgets/portfolio.class.php:43
+#: templates/shortcodes/portfolio/config.php:22
+msgid "Layout"
+msgstr ""
+
+#: inc/config-options.class.php:84
+#: templates/shortcodes/portfolio/config.php:23
+msgid "Specify your portfolio layout"
+msgstr ""
+
+#: inc/config-options.class.php:91
+#: templates/shortcodes/portfolio-slider/config.php:22
+#: templates/shortcodes/portfolio/config.php:31
+msgid "Item Skin"
+msgstr ""
+
+#: inc/config-options.class.php:92
+msgid "Specify your portfolio item skin"
+msgstr ""
+
+#: inc/config-options.class.php:93
+msgid "Note: Skin 01, Skin 02 only apply for layout Grid and Masonry"
+msgstr ""
+
+#: inc/config-options.class.php:100
+#: templates/shortcodes/portfolio-slider/config.php:31
+#: templates/shortcodes/portfolio/config.php:40
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:101
+#: templates/shortcodes/portfolio-slider/config.php:32
+#: templates/shortcodes/portfolio/config.php:41
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/config-options.class.php:107 inc/config-options.class.php:458
+#: inc/config-options.class.php:577 inc/config-options.class.php:841
+#: inc/widgets/portfolio.class.php:65
+#: templates/shortcodes/portfolio-slider/config.php:49
+#: templates/shortcodes/portfolio/config.php:58
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:108 inc/widgets/portfolio.class.php:66
+msgid "Specify your horizontal space between item."
+msgstr ""
+
+#: inc/config-options.class.php:115 inc/config-options.class.php:467
+#: inc/config-options.class.php:586 inc/config-options.class.php:850
+#: inc/widgets/portfolio.class.php:73
+#: templates/shortcodes/portfolio-slider/config.php:89
+#: templates/shortcodes/portfolio/config.php:106
+msgid "Columns"
+msgstr ""
+
+#: inc/config-options.class.php:126 inc/config-options.class.php:478
+#: inc/config-options.class.php:597 inc/config-options.class.php:861
+#: inc/widgets/portfolio.class.php:80
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:127 inc/widgets/portfolio.class.php:81
+msgid "Specify your columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:135 inc/config-options.class.php:487
+#: inc/config-options.class.php:606 inc/config-options.class.php:870
+#: inc/widgets/portfolio.class.php:88
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:136 inc/widgets/portfolio.class.php:89
+msgid "Specify your columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:144 inc/config-options.class.php:496
+#: inc/config-options.class.php:615 inc/config-options.class.php:879
+#: inc/widgets/portfolio.class.php:96
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-options.class.php:145 inc/widgets/portfolio.class.php:97
+msgid "Specify your columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:160 inc/config-options.class.php:512
+#: inc/config-options.class.php:895 inc/widgets/portfolio.class.php:104
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:161 inc/widgets/portfolio.class.php:105
+msgid "Specify your columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:169 inc/config-options.class.php:521
+#: inc/config-options.class.php:904 inc/widgets/portfolio.class.php:112
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:170 inc/widgets/portfolio.class.php:113
+msgid "Specify your columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:182 inc/config-options.class.php:428
+#: inc/config-options.class.php:811 inc/widgets/portfolio.class.php:50
+#: templates/shortcodes/portfolio-slider/config.php:94
+#: templates/shortcodes/portfolio/config.php:110
+msgid "Image size"
+msgstr ""
+
+#: inc/config-options.class.php:183 inc/config-options.class.php:429
+#: inc/config-options.class.php:812 inc/widgets/portfolio.class.php:51
+msgid "Enter your image size"
+msgstr ""
+
+#: inc/config-options.class.php:184 inc/config-options.class.php:430
+#: inc/config-options.class.php:813 inc/widgets/portfolio.class.php:52
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:191 inc/config-options.class.php:447
+#: inc/config-options.class.php:830
+#: templates/shortcodes/portfolio/config.php:119
+msgid "Image width"
+msgstr ""
+
+#: inc/config-options.class.php:192 inc/config-options.class.php:448
+#: inc/config-options.class.php:831
+msgid "Enter your image width"
+msgstr ""
+
+#: inc/config-options.class.php:203 inc/config-options.class.php:437
+#: inc/config-options.class.php:820 inc/widgets/portfolio.class.php:58
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/config-options.class.php:204 inc/config-options.class.php:438
+#: inc/config-options.class.php:821 inc/widgets/portfolio.class.php:59
+msgid "Enter image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:214 inc/config-options.class.php:380
+#: inc/config-options.class.php:763
+msgid "Justified Options"
+msgstr ""
+
+#: inc/config-options.class.php:220 inc/config-options.class.php:386
+#: inc/config-options.class.php:769
+msgid "Row Height"
+msgstr ""
+
+#: inc/config-options.class.php:221 inc/config-options.class.php:387
+#: inc/config-options.class.php:770
+#: templates/shortcodes/portfolio/config.php:149
+msgid "Enter your portfolio row height"
+msgstr ""
+
+#: inc/config-options.class.php:230 inc/config-options.class.php:396
+#: inc/config-options.class.php:779
+msgid "Row Max Height"
+msgstr ""
+
+#: inc/config-options.class.php:231
+#: templates/shortcodes/portfolio/config.php:159
+msgid "Enter your portfolio row max height"
+msgstr ""
+
+#: inc/config-options.class.php:240 inc/functions/helper.php:84
+msgid "Sorting"
+msgstr ""
+
+#: inc/config-options.class.php:245
+msgid "Order By"
+msgstr ""
+
+#: inc/config-options.class.php:246
+msgid "Select how to sort retrieved service."
+msgstr ""
+
+#: inc/config-options.class.php:253
+msgid "Order"
+msgstr ""
+
+#: inc/config-options.class.php:254 inc/functions/helper.php:90
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/config-options.class.php:264 inc/config-options.class.php:568
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/config-options.class.php:265
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:272 inc/config-options.class.php:653
+msgid "Post Paging"
+msgstr ""
+
+#: inc/config-options.class.php:273 inc/config-options.class.php:654
+#: templates/shortcodes/portfolio/config.php:81
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:280
+#: templates/shortcodes/portfolio-slider/config.php:71
+#: templates/shortcodes/portfolio/config.php:88
+msgid "Animation"
+msgstr ""
+
+#: inc/config-options.class.php:281
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/config-options.class.php:289
+msgid "Light Box"
+msgstr ""
+
+#: inc/config-options.class.php:290
+msgid "Specify your portfolio light box"
+msgstr ""
+
+#: inc/config-options.class.php:296
+#: templates/shortcodes/portfolio-slider/config.php:37
+#: templates/shortcodes/portfolio/config.php:46
+msgid "Show Category"
+msgstr ""
+
+#: inc/config-options.class.php:301
+#: templates/shortcodes/portfolio-slider/config.php:43
+#: templates/shortcodes/portfolio/config.php:52
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/config-options.class.php:312
+msgid "Single Portfolio"
+msgstr ""
+
+#: inc/config-options.class.php:318 inc/config-options.class.php:736
+msgid "Specify your single portfolio layout"
+msgstr ""
+
+#: inc/config-options.class.php:326
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:327
+msgid "Turn Off this option if you want to hide navigation on single"
+msgstr ""
+
+#: inc/config-options.class.php:332
+msgid "Comment"
+msgstr ""
+
+#: inc/config-options.class.php:333
+msgid "Turn Off this option if you want to hide comment on single"
+msgstr ""
+
+#: inc/config-options.class.php:338
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:339
+msgid "Turn Off this option if you want to hide share on single blog"
+msgstr ""
+
+#: inc/config-options.class.php:344
+msgid "Social Share"
+msgstr ""
+
+#: inc/config-options.class.php:345
+msgid "Select active social share links and sort them"
+msgstr ""
+
+#: inc/config-options.class.php:366 inc/config-options.class.php:685
+#: inc/settings.class.php:149
+msgid "Gallery"
+msgstr ""
+
+#: inc/config-options.class.php:373 inc/config-options.class.php:756
+msgid "Specify your single portfolio gallery layout"
+msgstr ""
+
+#: inc/config-options.class.php:397 inc/config-options.class.php:780
+msgid "Enter your gallery row max height"
+msgstr ""
+
+#: inc/config-options.class.php:405 inc/config-options.class.php:788
+msgid "Carousel Options"
+msgstr ""
+
+#: inc/config-options.class.php:411 inc/config-options.class.php:794
+msgid "Center Mode"
+msgstr ""
+
+#: inc/config-options.class.php:412 inc/config-options.class.php:795
+msgid "Turn On this option if you want to enable center mode"
+msgstr ""
+
+#: inc/config-options.class.php:417 inc/config-options.class.php:800
+msgid "Center Padding"
+msgstr ""
+
+#: inc/config-options.class.php:418 inc/config-options.class.php:801
+msgid "Side padding when in center mode (px or %). Default 50px"
+msgstr ""
+
+#: inc/config-options.class.php:459 inc/config-options.class.php:842
+msgid "Specify your horizontal space between gallery."
+msgstr ""
+
+#: inc/config-options.class.php:479 inc/config-options.class.php:862
+msgid "Specify your product columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:488 inc/config-options.class.php:871
+msgid "Specify your product columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:497 inc/config-options.class.php:880
+msgid "Specify your product columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:513 inc/config-options.class.php:896
+msgid "Specify your product columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:522 inc/config-options.class.php:905
+msgid "Specify your product columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:534 inc/config-options.class.php:917
+msgid "Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:535 inc/config-options.class.php:918
+msgid "Add custom css classes to gallery"
+msgstr ""
+
+#: inc/config-options.class.php:547 inc/config-options.class.php:553
+msgid "Related Portfolio"
+msgstr ""
+
+#: inc/config-options.class.php:554
+msgid "Turn Off this option if you want to hide related portfolio"
+msgstr ""
+
+#: inc/config-options.class.php:559
+msgid "Related Algorithm"
+msgstr ""
+
+#: inc/config-options.class.php:560
+msgid "Specify the algorithm of related portfolio"
+msgstr ""
+
+#: inc/config-options.class.php:569
+msgid "Enter number of portfolio per page you want to display"
+msgstr ""
+
+#: inc/config-options.class.php:578
+#: templates/shortcodes/portfolio-slider/config.php:50
+#: templates/shortcodes/portfolio/config.php:59
+msgid "Specify your horizontal space between portfolio."
+msgstr ""
+
+#: inc/config-options.class.php:598
+msgid "Specify your post columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:607
+msgid "Specify your post columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:616
+msgid "Specify your post columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:631
+msgid "Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:632
+msgid "Specify your post columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:640
+msgid "Extra Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:641
+msgid "Specify your post columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:667
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/config-options.class.php:674
+msgid "Media Type"
+msgstr ""
+
+#: inc/config-options.class.php:675
+msgid "Specify your portfolio media type"
+msgstr ""
+
+#: inc/config-options.class.php:678
+msgid "Image"
+msgstr ""
+
+#: inc/config-options.class.php:679
+msgid "Video"
+msgstr ""
+
+#: inc/config-options.class.php:686
+msgid "Specify your portfolio gallery"
+msgstr ""
+
+#: inc/config-options.class.php:692
+msgid "Video Url"
+msgstr ""
+
+#: inc/config-options.class.php:693
+msgid "Enter your portfolio Video Url"
+msgstr ""
+
+#: inc/config-options.class.php:702
+msgid "Additional details"
+msgstr ""
+
+#: inc/config-options.class.php:708 inc/settings.class.php:244
+#: inc/widgets/categories.class.php:33 inc/widgets/portfolio.class.php:18
+#: inc/widgets/search.class.php:18
+msgid "Title"
+msgstr ""
+
+#: inc/config-options.class.php:713
+msgid "Enter additional title"
+msgstr ""
+
+#: inc/config-options.class.php:716
+msgid "Value"
+msgstr ""
+
+#: inc/config-options.class.php:722
+msgid "Enter additional value"
+msgstr ""
+
+#: inc/config-options.class.php:728
+msgid "External Link"
+msgstr ""
+
+#: inc/config-options.class.php:729
+msgid ""
+"Enter URL to link instead of link to single portfolio page from "
+"Portfolio List page."
+msgstr ""
+
+#: inc/config-options.class.php:743
+msgid "Custom Gallery Settings"
+msgstr ""
+
+#: inc/config-options.class.php:744
+msgid "Turn On this option if you want to custom gallery settings"
+msgstr ""
+
+#: inc/config-options.class.php:749
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/functions/helper.php:27
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/functions/helper.php:31
+msgid ""
+"Enter categories by names to narrow output (Note: only listed "
+"categories will be displayed, divide categories with linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/helper.php:42
+msgid "Show"
+msgstr ""
+
+#: inc/functions/helper.php:45
+msgid "All"
+msgstr ""
+
+#: inc/functions/helper.php:46
+msgid "New In"
+msgstr ""
+
+#: inc/functions/helper.php:48 inc/functions/helper.php:59
+msgid "Narrow Portfolio"
+msgstr ""
+
+#: inc/functions/helper.php:51 inc/functions/helper.php:55
+#: inc/functions/helper.php:69 inc/functions/helper.php:80
+#: inc/functions/helper.php:88
+msgid "Portfolio Filter"
+msgstr ""
+
+#: inc/functions/helper.php:67
+msgid "Enter List of Portfolio"
+msgstr ""
+
+#: inc/functions/helper.php:74
+msgid "Order by"
+msgstr ""
+
+#: inc/functions/helper.php:78
+msgid "Select how to sort retrieved portfolio."
+msgstr ""
+
+#: inc/settings.class.php:22 inc/settings.class.php:157
+#: inc/settings.class.php:222
+msgid "Grid"
+msgstr ""
+
+#: inc/settings.class.php:26 inc/settings.class.php:161
+msgid "Masonry"
+msgstr ""
+
+#: inc/settings.class.php:30
+msgid "Masonry 02"
+msgstr ""
+
+#: inc/settings.class.php:34 inc/settings.class.php:165
+msgid "Justified"
+msgstr ""
+
+#: inc/settings.class.php:38
+msgid "Metro 01"
+msgstr ""
+
+#: inc/settings.class.php:42
+msgid "Metro 02"
+msgstr ""
+
+#: inc/settings.class.php:46
+msgid "Metro 03"
+msgstr ""
+
+#: inc/settings.class.php:50
+msgid "Metro 04"
+msgstr ""
+
+#: inc/settings.class.php:59 inc/settings.class.php:99
+#: inc/settings.class.php:134 inc/settings.class.php:172
+#: inc/settings.class.php:193 inc/settings.class.php:210
+#: inc/settings.class.php:233
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:72
+msgid "Skin 01"
+msgstr ""
+
+#: inc/settings.class.php:76
+msgid "Skin 02"
+msgstr ""
+
+#: inc/settings.class.php:80
+msgid "Skin 03"
+msgstr ""
+
+#: inc/settings.class.php:84
+msgid "Skin 04"
+msgstr ""
+
+#: inc/settings.class.php:88
+msgid "Skin 05"
+msgstr ""
+
+#: inc/settings.class.php:92
+msgid "Skin 06"
+msgstr ""
+
+#: inc/settings.class.php:111
+msgid "Layout 01"
+msgstr ""
+
+#: inc/settings.class.php:115
+msgid "Layout 02"
+msgstr ""
+
+#: inc/settings.class.php:119
+msgid "Layout 03"
+msgstr ""
+
+#: inc/settings.class.php:123
+msgid "Layout 04"
+msgstr ""
+
+#: inc/settings.class.php:127
+msgid "Layout 05"
+msgstr ""
+
+#: inc/settings.class.php:145
+msgid "Slider"
+msgstr ""
+
+#: inc/settings.class.php:153
+msgid "Carousel"
+msgstr ""
+
+#: inc/settings.class.php:183
+msgid "by Category"
+msgstr ""
+
+#: inc/settings.class.php:184
+msgid "by Tag"
+msgstr ""
+
+#: inc/settings.class.php:185
+msgid "by Author"
+msgstr ""
+
+#: inc/settings.class.php:186
+msgid "by Category & Tag"
+msgstr ""
+
+#: inc/settings.class.php:187
+msgid "by Category & Tag & Author"
+msgstr ""
+
+#: inc/settings.class.php:188
+msgid "Randomly"
+msgstr ""
+
+#: inc/settings.class.php:203
+msgid "Hide"
+msgstr ""
+
+#: inc/settings.class.php:204
+msgid "Feature Image"
+msgstr ""
+
+#: inc/settings.class.php:205
+msgid "Media Gallery"
+msgstr ""
+
+#: inc/settings.class.php:226
+msgid "List"
+msgstr ""
+
+#: inc/settings.class.php:243
+msgid "Date"
+msgstr ""
+
+#: inc/settings.class.php:245 inc/widgets/portfolio.class.php:28
+msgid "Random"
+msgstr ""
+
+#: inc/settings.class.php:246
+msgid "Menu Order"
+msgstr ""
+
+#: inc/settings.class.php:252
+msgid "ASC"
+msgstr ""
+
+#: inc/settings.class.php:253
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/categories.class.php:27
+msgid "G5Plus: Portfolio Categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:28
+msgid "A list or dropdown of portfolio categories."
+msgstr ""
+
+#: inc/widgets/categories.class.php:35
+msgid "Portfolio categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:40
+msgid "Show as dropdown"
+msgstr ""
+
+#: inc/widgets/categories.class.php:46
+msgid "Show portfolio counts"
+msgstr ""
+
+#: inc/widgets/categories.class.php:52
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/widgets/categories.class.php:58
+msgid "Only show children of the current category"
+msgstr ""
+
+#: inc/widgets/categories.class.php:64
+msgid "Hide empty categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:69
+msgid "Maximum depth"
+msgstr ""
+
+#: inc/widgets/categories.class.php:221
+msgid "No portfolio categories exist."
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:12
+msgid "G5Plus: Portfolio"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:13
+msgid "Display list portfolio"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:20
+msgid "Recent Portfolio"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:25
+msgid "Source"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:30
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:31
+msgid "Oldest"
+msgstr ""
+
+#: inc/widgets/portfolio.class.php:38
+msgid "Number of portfolio to show:"
+msgstr ""
+
+#: inc/widgets/search.class.php:12
+msgid "G5Plus: Portfolio Search"
+msgstr ""
+
+#: inc/widgets/search.class.php:13
+msgid "A search form for your portfolio."
+msgstr ""
+
+#: templates/loop/content-none.php:7
+msgid "No portfolio were found matching your selection."
+msgstr ""
+
+#: templates/searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: templates/searchform.php:10
+msgid "Search portfolio&hellip;"
+msgstr ""
+
+#: templates/searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:8
+msgid "Portfolio Slider"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:9
+msgid "Display slider of portfolio"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:16
+#: templates/shortcodes/portfolio/config.php:16
+msgid "Category Filter"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:23
+msgid "Specify your portfolio item skin."
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:57
+#: templates/shortcodes/portfolio/config.php:66
+msgid "Portfolio Per Page"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:58
+#: templates/shortcodes/portfolio/config.php:67
+msgid "Enter number of portfolio per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:64
+#: templates/shortcodes/portfolio/config.php:73
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:65
+#: templates/shortcodes/portfolio/config.php:74
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:72
+#: templates/shortcodes/portfolio/config.php:89
+msgid "Specify your portfolio animation"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:90
+msgid "Slider Options"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:95
+#: templates/shortcodes/portfolio/config.php:111
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:98
+#: templates/shortcodes/portfolio-slider/config.php:108
+#: templates/shortcodes/portfolio-slider/config.php:118
+#: templates/shortcodes/portfolio/config.php:115
+#: templates/shortcodes/portfolio/config.php:123
+#: templates/shortcodes/portfolio/config.php:133
+#: templates/shortcodes/portfolio/config.php:143
+#: templates/shortcodes/portfolio/config.php:154
+#: templates/shortcodes/portfolio/config.php:164
+msgid "Image Size"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:102
+#: templates/shortcodes/portfolio/config.php:127
+msgid "Image ratio width"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:103
+#: templates/shortcodes/portfolio/config.php:128
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:112
+#: templates/shortcodes/portfolio/config.php:137
+msgid "Image ratio height"
+msgstr ""
+
+#: templates/shortcodes/portfolio-slider/config.php:113
+#: templates/shortcodes/portfolio/config.php:138
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: templates/shortcodes/portfolio/config.php:9
+msgid "Display list of portfolio"
+msgstr ""
+
+#: templates/shortcodes/portfolio/config.php:32
+msgid ""
+"Specify your portfolio item skin, Note: Skin 01, Skin 02 only apply for "
+"layout Grid, Masonry"
+msgstr ""
+
+#: templates/shortcodes/portfolio/config.php:80
+msgid "Paging"
+msgstr ""
+
+#: templates/shortcodes/portfolio/config.php:148
+msgid "Justified Row Height"
+msgstr ""
+
+#: templates/shortcodes/portfolio/config.php:158
+msgid "Justified Row Max Height"
+msgstr ""
+
+#: templates/shortcodes/single-portfolio-gallery/config.php:8
+msgid "Portfolio Single Gallery"
+msgstr ""
+
+#: templates/shortcodes/single-portfolio-gallery/config.php:9
+msgid "Display gallery of single portfolio"
+msgstr ""
+
+#: templates/shortcodes/single-portfolio-meta/config.php:8
+msgid "Portfolio Single Meta"
+msgstr ""
+
+#: templates/shortcodes/single-portfolio-meta/config.php:9
+msgid "Display meta of single portfolio"
+msgstr ""
+
+#: templates/single/meta/cat.php:6
+msgid "Category:"
+msgstr ""
+
+#: templates/single/meta/tag.php:6
+msgid "Tags:"
+msgstr ""
+
+#: templates/single/navigation.php:7
+msgid "Previous"
+msgstr ""
+
+#: templates/single/navigation.php:8
+msgid "Next"
+msgstr ""
+
+#: templates/single/navigation.php:20
+#, php-format
+msgid "%s navigation"
+msgstr ""
+
+#: templates/single/related.php:152
+msgid "Related Projects"
+msgstr ""
+
+#: templates/single/share.php:13
+msgid "Share:"
+msgstr ""
+
+#: templates/single/share.php:24
+msgid "Facebook"
+msgstr ""
+
+#: templates/single/share.php:29
+msgid "Twitter"
+msgstr ""
+
+#: templates/single/share.php:34
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/single/share.php:39
+msgid "Tumblr"
+msgstr ""
+
+#: templates/single/share.php:45
+msgid "Pinterest"
+msgstr ""
+
+#: templates/single/share.php:50
+msgid "Email"
+msgstr ""
+
+#: templates/single/share.php:59
+msgid "Whats App"
+msgstr ""

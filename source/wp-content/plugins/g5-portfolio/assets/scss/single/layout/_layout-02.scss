@@ -1,0 +1,22 @@
+body.g5portfolio__single-layout-2 {
+  .entry-content {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  body.g5portfolio__single-layout-2 {
+    .g5portfolio__single-content-wrap {
+      padding-left: 50px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  body.g5portfolio__single-layout-2 {
+    .g5portfolio__single-gallery {
+      margin-bottom: 30px;
+    }
+  }
+}
+

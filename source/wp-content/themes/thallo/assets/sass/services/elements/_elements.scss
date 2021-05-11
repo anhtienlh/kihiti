@@ -1,0 +1,19 @@
+@import "view-more";
+@import "post-cat";
+@import "post-excerpt";
+@import "post-title";
+@import "thumbnail";
+
+.sidebar-contact-us .textwidget {
+	padding: 40px 40px 11px 40px;
+	border: 1px solid;
+	@extend %border-color;
+	border-radius: 5px;
+	.btn {
+		margin-top: 21px;
+		max-width: 190px;
+		width: 100%;
+	}
+}
+
+

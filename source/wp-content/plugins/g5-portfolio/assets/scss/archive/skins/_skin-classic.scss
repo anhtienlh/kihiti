@@ -1,0 +1,19 @@
+.g5portfolio__post-skin-classic {
+  .g5portfolio__post-featured {
+    margin-bottom: 30px;
+  }
+  .g5portfolio__post-inner {
+    padding-bottom: 40px;
+  }
+
+  .g5core__zoom-image {
+    left: 0;
+    top: 0;
+    i {
+      font-weight: 300;
+      &:before {
+        content: "\f067";
+      }
+    }
+  }
+}

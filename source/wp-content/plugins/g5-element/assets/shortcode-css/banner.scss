@@ -1,0 +1,282 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.gel-banner-effect {
+    overflow: hidden;
+    position: relative;
+    &:after {
+        @include transition(opacity .8s ease .15s);
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        z-index: 0;
+    }
+    .gel-effect-content {
+        position: relative;
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            display: block;
+        }
+    }
+}
+
+.suprema-effect .gel-effect-content {
+    &:before, &:after {
+        width: 45%;
+        height: 2px;
+        top: 50%;
+        background: #fff;
+        opacity: 0;
+        z-index: 2;
+        @include transition(opacity .2s ease, transform 0s .2s);
+    }
+    &:before {
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        @include transform(rotate(-45deg));
+        left: 50%;
+    }
+    &:after {
+        right: 50%;
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        @include transform(rotate(-45deg));
+    }
+}
+
+.layla-effect, .bubba-effect {
+    .gel-effect-content {
+        &:after, &:before {
+            content: '';
+            display: block;
+            background-color: transparent;
+            position: absolute;
+            z-index: 2;
+            @include transition(all 0.5s);
+        }
+        &:after {
+            top: 25px;
+            bottom: 25px;
+            left: 50%;
+            right: 50%;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: #fff;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #fff;
+        }
+        &:before {
+            top: 50%;
+            bottom: 50%;
+            left: 25px;
+            right: 25px;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: #fff;
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: #fff;
+        }
+    }
+}
+
+.jazz-effect .gel-effect-content:before {
+    background-color: transparent;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    @include transition(all 0.5s);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    @include transform(rotate(45deg) scale(0.5));
+}
+
+.flash-effect {
+    overflow: hidden;
+    position: relative;
+    .gel-banner-bg {
+        @include transition(all 0.3s);
+    }
+    .gel-effect-content {
+        position: relative;
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            content: '';
+            @include transition(all 0.6s);
+            z-index: 2;
+            @include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0));
+        }
+    }
+}
+
+.gel-banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    .gel-effect-bg-image {
+        z-index: 1;
+    }
+    &.gel-banner-show-all {
+        .gel-banner-content {
+            top: 50%;
+            @include transform(translateY(-50%));
+        }
+        .gel-banner-description, .gel-banner-action {
+            opacity: 1;
+        }
+    }
+    &:hover {
+        .gel-banner-effect {
+            &:after, .gel-effect-content:before, .gel-effect-content:after {
+                opacity: 1;
+            }
+        }
+        .suprema-effect .gel-effect-content {
+            &:before {
+                @include transition(opacity .3s ease 50ms, transform 2s cubic-bezier(.26, .63, 0, .96));
+                @include transform(rotate(-45deg) translateX(-1000px));
+            }
+            &:after {
+                @include transition(opacity .4s ease, transform 2s cubic-bezier(.26, .63, 0, .96));
+                @include transform(rotate(-45deg) translateX(1000px));
+            }
+        }
+        .layla-effect .gel-effect-content {
+            &:after {
+                left: 10px;
+                right: 10px;
+            }
+            &:before {
+                top: 10px;
+                bottom: 10px;
+            }
+        }
+        .bubba-effect .gel-effect-content {
+            &:after {
+                left: 25px;
+                right: 25px;
+            }
+            &:before {
+                top: 25px;
+                bottom: 25px;
+            }
+        }
+        .jazz-effect .gel-effect-content:before {
+            @include transform(rotate(45deg) scale(1));
+        }
+        .flash-effect {
+            .gel-effect-content:before {
+                @include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0));
+            }
+            .gel-banner-bg {
+                @include transform(scale3d(1.1, 1.1, 1.1));
+            }
+        }
+        .gel-banner-content {
+            @include transition(all .5s);
+            top: 50%;
+            @include transform(translateY(-50%));
+        }
+        .gel-banner-description, .gel-banner-action {
+            opacity: 1;
+            @include transition(opacity 1s);
+        }
+    }
+}
+
+.gel-banner-bg {
+    background-size: cover;
+    background-position: center center;
+    > a {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+}
+
+.gel-banner-title {
+    //margin-bottom: -0.3125rem;
+    margin: 0;
+    color: inherit;
+    a, &:hover a {
+        color: inherit;
+    }
+}
+
+.gel-banner-description {
+    //margin-top: 1.4375rem;
+    //margin-bottom: -0.5rem;
+    margin: 0;
+    color: inherit;
+    opacity: 0;
+    @include transition(opacity 1s);
+}
+
+.gel-banner-action {
+    //margin-top: 2rem;
+    opacity: 0;
+    @include transition(opacity 1s);
+}
+
+.gel-banner-title + .gel-banner-description {
+    margin-top: 1.4375rem;
+}
+
+.gel-banner-description + .gel-banner-action,
+.gel-banner-title + .gel-banner-action {
+    margin-top: 2rem;
+}
+
+.gel-banner-content {
+    text-align: center;
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    top: calc(100% - 59px);
+    z-index: 2;
+    @include transition(top .5s);
+    color: #fff;
+}
+
+.gel-banner-style-01, .gel-banner-style-02, .gel-banner-style-03, .gel-banner-style-07 {
+    .gel-banner-content {
+        top: 50%;
+        @include transition(all .5s);
+    }
+}
+
+.gel-banner-style-01, .gel-banner-style-04 {
+    .gel-banner-content {
+        text-align: left;
+        left: 30px;
+    }
+}
+
+.gel-banner-style-03, .gel-banner-style-06 {
+    .gel-banner-content {
+        text-align: right;
+        right: 30px;
+    }
+}

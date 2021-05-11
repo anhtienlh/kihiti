@@ -1,0 +1,17 @@
+.g5services__loop-view-more{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	@extend %heading-color;
+	margin-top: 19px;
+	display: block;
+	@include transition(color .3s);
+	&:hover {
+		@extend %accent-text-color;
+	}
+	i{
+		padding-left: 16px;
+		@extend %accent-text-color;
+	}
+}

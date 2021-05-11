@@ -1,0 +1,22 @@
+@import "post-title";
+@import "navigation";
+@import "related";
+
+
+.g5works__single-share-wrap {
+	@include d-flex();
+	@include flex-wrap();
+	@include align-items-center();
+	margin-top: 60px;
+	padding-top: 63px;
+	border-top: 1px solid;
+	@extend %border-color;
+	.g5core__social-share {
+		margin-right: auto;
+		padding-right: 30px;
+	}
+	>.g5works__single-navigation,
+	> div {
+		padding-top: 10px;
+	}
+}

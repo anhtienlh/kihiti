@@ -1,0 +1,10 @@
+.g5blog__post-title {
+  font-size: 30px;
+  font-weight: 700;
+  @extend %font-body;
+  letter-spacing: -0.025em;
+  margin-top: 0 !important;
+  &:hover {
+    @extend %accent-text-color;
+  }
+}

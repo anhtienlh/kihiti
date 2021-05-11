@@ -1,0 +1,159 @@
+/* ## Elements */
+table.g5careers__table thead th {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  border: none;
+  border-top: 5px solid;
+  padding: 20px 1rem 20px 0;
+}
+table.g5careers__table td {
+  border: none;
+  border-top: 1px solid;
+  font-size: 14px;
+  padding: 15px 1rem 15px 0;
+}
+@media (max-width: 768px) {
+  table.g5careers__table-responsive tbody td {
+    padding-right: 0;
+  }
+  table.g5careers__table-responsive tbody td:after {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.025em;
+  }
+}
+@media (min-width: 992px) {
+  #case-filter-top ul.g5core__cate-filer {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+/* ## Archive */
+.g5careers__listing-wrap .g5-loading {
+  top: 0 !important;
+}
+.g5careers__listing-wrap .g5core__paging {
+  margin-top: 40px;
+}
+
+/* ## Single */
+.g5careers__single-title {
+  font-size: 36px;
+}
+
+ul.g5careers__single-meta {
+  background-color: #f2f9ff;
+  border-radius: 5px;
+  border-left: 8px solid;
+  padding: 30px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+ul.g5careers__single-meta li {
+  word-break: break-all;
+  display: table-cell;
+  padding: 0 10px;
+  margin: 0;
+}
+ul.g5careers__single-meta li:first-child {
+  padding-left: 0;
+}
+ul.g5careers__single-meta li:last-child {
+  padding-right: 0;
+}
+ul.g5careers__single-meta li label {
+  display: block;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+  font-size: 12px;
+  font-weight: 400;
+}
+ul.g5careers__single-meta li span {
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  ul.g5careers__single-meta li {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  ul.g5careers__single-meta li:last-child {
+    margin-bottom: 0;
+  }
+}
+/*--------------------------------------------------------------
+## Extends css
+--------------------------------------------------------------*/
+.font-body {
+  font-family: "Open Sans";
+}
+
+.font-primary,
+.g5careers__single-title {
+  font-family: "Work Sans";
+}
+
+.text-color {
+  color: #7d7d7d;
+}
+
+table.g5careers__table a:hover {
+  color: #4b2bb0;
+}
+
+ul.g5careers__single-meta {
+  border-color: #4b2bb0;
+}
+
+.accent-foreground-color {
+  color: #fff;
+}
+
+.accent-foreground-bg-color {
+  background-color: #fff;
+}
+
+.disabled-color {
+  color: #ccc;
+}
+
+.caption-color {
+  color: #ababab;
+}
+
+.border-color,
+table.g5careers__table thead th,
+table.g5careers__table td {
+  border-color: #ebebeb;
+}
+
+.heading-color,
+table.g5careers__table thead th,
+table.g5careers__table-responsive tbody td:after,
+ul.g5careers__single-meta li {
+  color: #000;
+}
+
+.primary-color {
+  color: #4f4f6f;
+}
+
+.primary-bg-color {
+  background-color: #4f4f6f;
+}
+
+.secondary-color {
+  color: #6428cb;
+}
+
+.secondary-bg-color {
+  background-color: #6428cb;
+}
+
+/*# sourceMappingURL=careers.css.map */

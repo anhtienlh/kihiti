@@ -1,0 +1,19 @@
+.g5staff__layout-grid {
+	.g5staff__post-inner {
+		margin-bottom: 20px;
+	}
+}
+.g5element__staff-slider {
+	.slick-arrow {
+		position: absolute;
+		top: 50%;
+		@include transform(translateY(-50%));
+	}
+	.slick-prev {
+		left: 10px;
+	}
+
+	.slick-next {
+		right: 10px;
+	}
+}

@@ -1,0 +1,10 @@
+.g5services__post-cat {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 5px 0;
+	a {
+		&:hover {
+			@extend %accent-text-color;
+		}
+	}
+}

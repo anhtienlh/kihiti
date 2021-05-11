@@ -1,0 +1,189 @@
+.toggle-icon {
+	cursor: pointer;
+	display: inline-block;
+	width: 32px;
+	height: 30px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.toggle-icon > span {
+	bottom: 0;
+	display: block;
+	height: 2px;
+	left: 2px;
+	right: 8px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	background-color: currentColor;
+}
+
+.toggle-icon > span:after,
+.toggle-icon > span:before {
+	content: '';
+	height: 2px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: -6px;
+
+	-webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, background 0.3s;
+	-moz-transition: top 0.3s ease-in-out, -moz-transform 0.3s ease-in-out, background 0.3s;
+	transition: top 0.3s ease-in-out, transform 0.3s ease-in-out, background 0.3s;
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	background-color: currentColor;
+}
+
+.toggle-icon > span:before {
+	top: 8px;
+}
+
+.toggle-icon > span:after {
+	top: -8px;
+}
+
+.toggle-icon:hover {
+	color: #e4573d;
+}
+
+.toggle-icon.in > span {
+	background-color: transparent !important;
+}
+
+.toggle-icon.in > span:after,
+.toggle-icon.in > span:before {
+	-webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s 0.5s ease-in-out, background 0.3s;
+	-moz-transition: top 0.3s ease-in-out, -moz-transform 0.3s 0.5s ease-in-out, background 0.3s;
+	transition: top 0.3s ease-in-out, transform 0.3s 0.5s ease-in-out, background 0.3s;
+
+	top: 0;
+}
+
+.toggle-icon.in > span:after {
+	-webkit-transform: rotate3d(0, 0, 1, -45deg);
+	-moz-transform: rotate3d(0, 0, 1, -45deg);
+	-ms-transform: rotate3d(0, 0, 1, -45deg);
+	-o-transform: rotate3d(0, 0, 1, -45deg);
+	transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.toggle-icon.in > span:before {
+	-webkit-transform: rotate3d(0, 0, 1, 45deg);
+	-moz-transform: rotate3d(0, 0, 1, 45deg);
+	-ms-transform: rotate3d(0, 0, 1, 45deg);
+	-o-transform: rotate3d(0, 0, 1, 45deg);
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.vc-col-no-pt > .vc_column-inner,
+.vc_row.vc_row.vc-col-no-pt > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row.vc-col-no-pt > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row.vc-col-no-pt > .vc_column_container > .vc_column-inner {
+	padding-top: 0;
+}
+
+.custom-border-images {
+	&.vc_column_container {
+		&:before, &:after {
+			content: '';
+			position: absolute;
+			border-radius: 0 0 5px 5px;
+			background-color: #6e45e2;
+		}
+		&:before {
+			bottom: -10px;
+			right: 12px;
+			height: 10px;
+			left: 12px;
+		}
+		&:after {
+			bottom: -18px;
+			right: 20px;
+			height: 8px;
+			left: 20px;
+			opacity: 0.5;
+		}
+	}
+}
+
+.custom-border-images.border-images-top {
+	&.vc_column_container {
+		&:before, &:after {
+			border-radius: 5px 5px 0 0;
+		}
+		&:before {
+			top: -10px;
+		}
+		&:after {
+			top: -18px;
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	div.lg-pd-left-right-0 {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	div.lg-col-pd-right-15 > .vc_column-inner {
+		padding-right: 15px !important;
+	}
+	div.lg-col-pd-left-15 > .vc_column-inner {
+		padding-left: 15px !important;
+	}
+	div.lg-col-pd-left-right-15 > .vc_column-inner {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	div.lg-col-mg-left-0 > .vc_column-inner {
+		margin-left: 0 !important;
+	}
+	div.lg-col-mg-right-0 > .vc_column-inner {
+		margin-right: 0 !important;
+	}
+	div.lg-mg-top-0{
+		margin-top: 0 !important;
+	}
+	div.lg-mg-right-0{
+		margin-right: 0 !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.custom-border-none > .vc_column-inner {
+		border: none !important;
+	}
+}
+@media (max-width: 576px) {
+	.xs-col-width-100 > .vc_column_container {
+		width: 100% !important;
+	}
+}
+
+.custom-text-mb-16 p {
+	margin-bottom: 16px;
+}
+
+.custom-section-overflow.vc_section[data-vc-full-width]{
+	overflow: visible
+}
+.custom-menu-width-50 {
+	.menu {
+		@include d-flex();
+		@include flex-wrap();
+	}
+	li {
+		width: 50%;
+	}
+}

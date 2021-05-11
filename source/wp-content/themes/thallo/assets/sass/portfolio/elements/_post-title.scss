@@ -1,0 +1,7 @@
+.g5portfolio__post-title {
+  font-size: 20px;
+  line-height: 1.5;
+  &:hover {
+    @extend %accent-text-color;
+  }
+}

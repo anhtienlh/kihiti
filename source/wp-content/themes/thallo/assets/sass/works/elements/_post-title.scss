@@ -1,0 +1,7 @@
+.g5works__post-title {
+  font-size: 18px;
+  line-height: 1.55;
+  &:hover {
+    @extend %accent-text-color;
+  }
+}

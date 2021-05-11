@@ -1,0 +1,129 @@
+.slick-arrows {
+	.slick-arrow {
+		height: 45px;
+		width: 45px;
+		line-height: 45px;
+		@extend %accent-text-color;
+		@extend %accent-foreground-bg-color;
+		@include border-radius(50%);
+		@include box-shadow(1px 5px 30px 8.82px rgba(130, 112, 161, 0.19));
+
+		@include transition(all 0.3s);
+		font-size: 14px;
+		&.slick-disabled {
+			opacity: 1;
+		}
+		&:hover {
+			@extend %accent-bg-color;
+			@extend %accent-foreground-color;
+		}
+	}
+	.slick-prev {
+		margin-right: 20px;
+		i:before {
+			content: "\f177";
+		}
+	}
+	.slick-next i:before {
+		content: "\f178";
+	}
+}
+
+.custom-color-slick-dots {
+	.slick-dots {
+		margin-top: -5px;
+		opacity: 1;
+		color: #b7b7b7;
+		li.slick-active,
+		li:hover {
+			color: $color_background_body;
+		}
+	}
+}
+
+.slick-dots {
+	span:before {
+		content: "\f192";
+		font-size: 11px;
+	}
+
+	li.slick-active span:before {
+		content: "\f111";
+	}
+}
+
+.custom-slick-arrows-mt-49 .slick-arrows {
+	margin-top: 49px;
+}
+
+.custom-slick-arrows-mt-22 .slick-arrows {
+	margin-top: 17px;
+	@include justify-content-start();
+	padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+
+	.custom-slick-dots-top-67 .slick-dots {
+		position: absolute;
+		right: 0;
+		top: -67px;
+	}
+	.custom-slick-dots-top-100 .slick-dots {
+		position: absolute;
+		right: 7px;
+		top: -100px;
+	}
+	.custom-slick-dots-mt-2 {
+		.slick-arrows + .slick-dots {
+			margin-top: 2px;
+		}
+	}
+	.slick-arrows-center {
+		.slick-arrow {
+			position: absolute;
+			top: 50%;
+		}
+
+		.slick-prev {
+			margin: 0;
+			@include transform(translate(-100%, -50%));
+			left: -50px;
+		}
+
+		.slick-next {
+			@include transform(translate(100%, -50%));
+			right: -50px;
+		}
+	}
+	.custom-slick-arrows-our-team {
+		.slick-next, .slick-prev {
+			position: absolute;
+		}
+		.slick-arrows {
+			position: absolute;
+			top: 125px;
+			width: 100%;
+			.slick-next {
+				right: -50px;
+			}
+			.slick-prev {
+				left: -50px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.custom-slick-arrows-top-107 .slick-arrows {
+		position: absolute;
+		right: 15px;
+		top: -107px;
+	}
+}
+
+@media (max-width: 767px) {
+	.custom-slick-arrows-top-107 .slick-arrows {
+		margin-top: 28px;
+	}
+}

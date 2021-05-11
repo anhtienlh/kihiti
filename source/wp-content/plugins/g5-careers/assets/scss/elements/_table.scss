@@ -1,0 +1,35 @@
+table.g5careers__table {
+	a {
+		color: inherit;
+	}
+}
+
+@media (max-width: 768px) {
+	table.g5careers__table-responsive {
+		thead {
+			display: none;
+		}
+
+		tbody {
+			td {
+				display: block;
+				text-align: right;
+				&:before {
+					content: attr(data-title) ": ";
+					font-weight: 700;
+					float: left;
+				}
+				&:after {
+					content: '';
+					clear: both;
+					display: block;
+				}
+			}
+
+			tr:nth-child(2n) td {
+				background-color: rgba(0,0,0,.025);
+			}
+		}
+	}
+}
+

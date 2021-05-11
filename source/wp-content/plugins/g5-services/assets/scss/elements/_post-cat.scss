@@ -1,0 +1,9 @@
+.g5services__post-cat {
+	margin-bottom: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	a {
+		color: inherit !important;
+		@include transition(all .5s);
+	}
+}

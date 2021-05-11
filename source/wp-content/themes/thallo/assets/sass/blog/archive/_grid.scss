@@ -1,0 +1,70 @@
+.g5blog__post-grid {
+  &.sticky {
+    .g5blog__post-inner {
+      padding: 0;
+    }
+    .g5blog__post-content {
+      background-color: $color_background_post_sticky;
+    }
+  }
+
+  .g5blog__post-featured {
+    margin-bottom: 0;
+  }
+
+  ul.g5blog__post-meta {
+    margin-bottom: 13px;
+  }
+
+  .g5blog__post-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .btn-read-more {
+    margin-top: 14px;
+  }
+
+  .g5blog__post-title + .btn-read-more {
+    margin-top: -7px;
+  }
+
+  .g5blog__post-content {
+    border: 1px solid;
+    @extend %border-color;
+    @include border-radius(5px);
+    padding: 25px 30px 17px 30px;
+  }
+
+  .g5blog__post-featured + .g5blog__post-content {
+    margin-top: -1px;
+    @include border-radius(0px 0px 5px 5px);
+  }
+
+  .g5core__entry-thumbnail {
+    @include border-radius(5px 5px 0px 0px);
+  }
+
+  .g5blog__post-inner {
+    @include transition(box-shadow .3s);
+    &:hover {
+      @include box-shadow(0px 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+    }
+  }
+
+}
+
+.g5blog__layout-grid {
+  .g5core__gutter-20 > .g5core__gutter-item {
+    padding-bottom: 40px;
+  }
+  .g5core__gutter-30 > .g5core__gutter-item {
+    padding-bottom: 50px;
+  }
+  .g5core__paging {
+    margin-top: 20px;
+  }
+}
+
+

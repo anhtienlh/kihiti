@@ -1,0 +1,37 @@
+.gel-counter{
+	font-size: 60px;
+	font-weight: bold;
+	@extend %heading-color;
+}
+.gel-counter-prefix,
+.gel-counter-suffix{
+	font-size: 60px;
+	top:auto;
+}
+.custom-gel-counter{
+	&.gel-counter{
+		font-size: 36px;
+		letter-spacing: -0.04em;
+		font-weight: 600;
+	}
+	.gel-counter-suffix,
+	.gel-counter-prefix{
+		font-size: 18px;
+		top:0;
+	}
+	.gel-counter-suffix{
+		padding-left: 5px;
+	}
+	.gel-counter-prefix{
+		padding-right: 5px;
+	}
+}
+@media (max-width: 390px) {
+	.custom-col-counter-mw-390 > .vc_column_container {
+		width: 100% !important;
+		text-align: center;
+		.gel-heading{
+			text-align: center !important;
+		}
+	}
+}

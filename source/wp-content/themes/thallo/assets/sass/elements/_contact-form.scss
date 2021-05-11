@@ -1,0 +1,81 @@
+.thallo-contact {
+	.item-contact {
+		padding: 15px;
+		select, input[type="text"],
+		input[type="tel"],
+		input[type="email"], textarea, input[type="submit"] {
+			width: 100%;
+		}
+		textarea {
+			height: 126px;
+		}
+	}
+	.wpcf7-not-valid {
+		border-color: #dc3545 !important;
+	}
+	.submit {
+		input[type="submit"] {
+			max-width: 190px;
+		}
+	}
+	input[type="submit"].btn-send {
+		max-width: 130px;
+	}
+
+	.wpcf7-not-valid-tip {
+		display: none;
+	}
+	input[type="file"].wpcf7-not-valid {
+		color: #dc3545;;
+	}
+	& + .wpcf7-validation-errors {
+		text-align: center;
+		color: #fff;
+		background: #dc3545;
+		border: none;
+		@include border-radius(4px);
+		min-height: 50px;
+		padding: 12px;
+		margin-top: 10px;
+	}
+	.item-careers:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.file {
+		input[type="file"] {
+			width: 100%;
+		}
+	}
+}
+
+.white-text-color .thallo-contact {
+	color: #c2c2c2;
+	select,
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	textarea {
+		background: transparent;
+		color: inherit;
+		border-color: rgba(255, 255, 255, 0.15);
+		@include input-placeholder() {
+			color: inherit;
+		}
+	}
+	.submit {
+		input[type="submit"] {
+			background: #fff;
+			@extend %accent-text-color;
+		}
+	}
+}
+
+.bg-white-input .thallo-contact {
+	select,
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	textarea {
+		background: #fff;
+	}
+}

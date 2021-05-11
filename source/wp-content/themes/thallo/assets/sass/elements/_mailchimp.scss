@@ -1,0 +1,63 @@
+.thallo-mailchimp {
+	max-width: 500px;
+	@include d-flex();
+	input[type="email"] {
+		height: 45px;
+		width: 70%;
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 0;
+	}
+	button[type="submit"] {
+		border-top-left-radius: 0;
+		height: 45px;
+		border-bottom-left-radius: 0;
+		width: 30%;
+	}
+}
+
+.mc4wp-response {
+	margin-top: 10px;
+}
+
+.custom-mailchimp {
+	.thallo-mailchimp {
+		position: relative;
+		input[type="email"] {
+			width: 100%;
+			border-radius: 30px !important;
+			padding-right: 45px;
+		}
+		button[type="submit"] {
+			position: absolute;
+			background: transparent;
+			right: 23px;
+			padding: unset;
+			width: 20px;
+			&:before {
+				font-family: 'Fontawesome';
+				font-size: 12px;
+				display: block;
+				line-height: 45px;
+				text-align: center;
+				@extend %accent-text-color;
+				content: '\f061';
+			}
+		}
+	}
+}
+
+.custom-mailchimp-mw-600 {
+	.thallo-mailchimp {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 425px) {
+	.thallo-mailchimp {
+		button[type="submit"] {
+			padding: unset;
+		}
+	}
+}

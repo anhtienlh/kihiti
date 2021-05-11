@@ -1,0 +1,8 @@
+.g5portfolio__post-title {
+  margin: 0 !important;
+  font-size: 1.125rem;
+  @include transition(all .5s);
+  a {
+    color: inherit !important;
+  }
+}

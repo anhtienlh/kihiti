@@ -1,0 +1,126 @@
+.wpb-js-composer.wpb-js-composer .vc_tta.vc_general.vc_tta-accordion {
+	.vc_tta-panel-title {
+		font-size: 20px;
+		letter-spacing: -0.025em;
+	}
+	&.vc_tta-accordion.custom-accordion {
+		.vc_tta-controls-icon.vc_tta-controls-icon-plus {
+			height: 21px;
+			width: 21px;
+			border-radius: 50%;
+			border: 1px solid;
+			@extend %accent-text-color;
+			@extend %accent-border-color;
+			&:before {
+				border-width: 1px 0 0 0;
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+			&:after {
+				border-width: 0 0 0 1px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+		.vc_tta-panel{
+			&.vc_active{
+				.vc_tta-controls-icon.vc_tta-controls-icon-plus{
+					color: $color_background_body;
+					@extend %accent-bg-color;
+				}
+			}
+		}
+		.vc_tta-panel-title>a {
+			padding: 5px 20px 5px 40px;
+		}
+		.vc_tta-panel-body{
+			padding-top: 0;
+			padding-left: 40px;
+			padding-right: 46px;
+			padding-bottom: 22px;
+			p{
+				font-size: 15px;
+			}
+		}
+		.vc_tta-panel:not(.vc_active){
+				padding-bottom: 23px;
+		}
+		&.white-text-color{
+			.vc_tta-panel-title,
+			.vc_tta-controls-icon.vc_tta-controls-icon-plus{
+				color: inherit;
+				border-color: inherit;
+			}
+			.vc_tta-panel{
+				&.vc_active{
+					.vc_tta-controls-icon.vc_tta-controls-icon-plus{
+						@extend %heading-color;
+						background-color:$color_background_body;
+						border-color: $color_background_body;
+					}
+				}
+			}
+			.vc_tta-panel-body{
+				p{
+					color: #c2c2c2 !important;
+				}
+			}
+		}
+		&.accordion-box-shadown{
+			.vc_tta-panel{
+				padding-top: 19px;
+				padding-bottom: 8px;
+				&.vc_active{
+					margin-bottom: 13px;
+					padding-top: 9px;
+					padding-bottom: 7px;
+					@include border-radius(5px);
+					@include box-shadow(0px 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+					.vc_tta-panel-title {
+						@extend %accent-text-color;
+						a{
+							padding-bottom: 8px;
+						}
+					}
+				}
+				&:not(.vc_active){
+					border-bottom: 1px solid;
+					@extend %border-color;
+				}
+				a{
+					padding-right: 46px;
+					padding-left: 30px;
+				}
+				.vc_tta-controls-icon{
+					right: 20px;
+				}
+			}
+			.vc_tta-panel-body{
+				padding-left: 30px;
+			}
+		}
+		&.accordion-background{
+			.vc_tta-panel{
+				padding:24px 20px 10px 0;
+				border-bottom: 1px solid;
+				@extend %border-color;
+				&.vc_active{
+					padding-top: 20px;
+					@include border-radius(5px);
+					background-color: $color_background_page_title;
+					padding-bottom: 18px;
+					border-bottom: none;
+				}
+				.vc_tta-panel-title{
+					font-size: 16px;
+					a{
+						padding: 4px 30px 4px 30px;
+					}
+				}
+			}
+			.vc_tta-panel-body{
+				padding-left: 30px;
+			}
+		}
+	}
+}

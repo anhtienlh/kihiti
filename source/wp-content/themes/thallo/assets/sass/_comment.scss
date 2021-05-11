@@ -1,0 +1,293 @@
+.comments-area {
+	margin-top: 70px;
+	.comments-title,
+	.comment-reply-title {
+		@extend %font-primary;
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: -0.025em;
+		@extend %heading-color;
+		margin-bottom: 29px;
+	}
+
+	.comments-title {
+		margin-bottom: 35px;
+	}
+}
+.comment-form {
+	@extend %clearfix;
+	p {
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	a {
+		color: inherit;
+		&:hover {
+			@extend %accent-text-color;
+		}
+	}
+
+	textarea {
+		width: 100%;
+		display: block;
+		height: 125px;
+	}
+
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		input {
+			width: 100%;
+		}
+	}
+
+	.comment-form-email,
+	.comment-form-author {
+		float: left;
+		width: 50%;
+	}
+
+	.comment-form-author {
+		padding-right: 15px;
+	}
+
+	.comment-form-email {
+		padding-left: 15px;
+	}
+
+
+	.comment-form-cookies-consent {
+		input[type="checkbox"] {
+			position: relative;
+			top: 2px;
+		}
+		label {
+			display: inline;
+			margin: 0 0 0 5px;
+		}
+	}
+
+	.mc4wp-checkbox-wp-comment-form {
+		input[type=checkbox] {
+			margin: 0 5px 0 0;
+			position: relative;
+			top: 2px;
+		}
+	}
+
+	@include media-xs() {
+		.comment-form-email,
+		.comment-form-author {
+			width: 100%;
+			padding: 0;
+		}
+	}
+
+}
+
+
+
+.comments-list-wrap {
+	margin-bottom: 58px;
+}
+
+.comment-list {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+
+	li.comment {
+		margin-bottom: $margin_comment_element;
+	}
+
+	> li.comment:last-child {
+		margin-bottom: 0;
+	}
+
+	li.comment + li.comment {
+		padding-top: $margin_comment_element;
+	}
+
+
+	li:not(.pingback):not(.trackback){
+		.comment-body {
+			position: relative;
+			padding-left: 100px;
+		}
+	}
+	li.pingback,
+	li.trackback{
+		margin-bottom: $margin_comment_element;
+
+		+ .comment {
+			margin-top: $margin_comment_element;
+		}
+
+		.comment-body {
+			a:not(.comment-edit-link) {
+				font-weight: bold;
+				letter-spacing: -0.05em;
+				display: block;
+				@extend %heading-color;
+				margin: 5px 0;
+			}
+
+			.edit-link {
+				font-size: 12px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: -0.025em;
+				a {
+					color: inherit;
+					&:hover {
+						@extend %accent-text-color;
+					}
+				}
+			}
+		}
+
+	}
+
+	.comment-content {
+		margin-bottom: 18px;
+		font-size: 15px;
+		h1, h2, h3, h4, h5, h6 {
+			margin-top: 2rem;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.comment-meta {
+		margin-bottom: 7px;
+		@include d-flex();
+		@include align-items-center();
+		@include flex-wrap();
+		.comment-author {
+			margin-right: 30px;
+		}
+		.edit-link {
+			margin-left: 1rem;
+		}
+	}
+
+
+	.comment-author {
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			@include border-radius(50%);
+		}
+
+		.fn
+		{
+			font-weight: bold;
+			@extend %heading-color;
+			letter-spacing: -0.025em;
+			> a {
+				color: inherit;
+				&:hover {
+					@extend %accent-text-color;
+				}
+			}
+
+		}
+		.says {
+			display: none;
+		}
+	}
+
+
+
+	.reply {
+		@extend %heading-color;
+		a:after {
+			content: '\f061';
+			font-family: $font_icon;
+			@extend %accent-text-color;
+			font-size: 11px;
+			margin-left: 10px;
+		}
+	}
+
+	.reply,
+	.comment-metadata {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: -0.025em;
+		a {
+			color: inherit;
+			&:hover {
+				@extend %accent-text-color;
+			}
+		}
+	}
+
+
+
+
+
+	ul.children {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 105px;
+		margin-top: $margin_comment_element;
+		padding-top: $margin_comment_element;
+	}
+
+	.comment-reply-title {
+		margin-top: 50px;
+		small {
+			a {
+				color: inherit;
+				font-size: 14px;
+				font-weight: bold;
+				text-transform: uppercase;
+				&:hover {
+					@extend %accent-text-color;
+				}
+			}
+		}
+	}
+
+
+	@include media-lg {
+		ul.children {
+			margin-left: 35px;
+		}
+	}
+
+	@include media-xs {
+
+		ul.children {
+			margin-left: 25px;
+		}
+
+		.comment-author img {
+			width: 50px;
+		}
+
+		li:not(.pingback):not(.trackback) .comment-body {
+			padding-left: 70px;
+		}
+
+	}
+}
+
+
+
+.comments-pagination {
+	margin-top: 2.5rem;
+	text-align: right;
+}
+

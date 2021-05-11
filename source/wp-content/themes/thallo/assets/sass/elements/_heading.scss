@@ -1,0 +1,50 @@
+.gel-heading-title{
+	@extend %font-primary;
+	@extend %primary-color;
+	margin-bottom: 0;
+	line-height: 1.3;
+}
+.gel-heading-subtitle{
+	font-weight: bold;
+	text-transform: uppercase;
+	@extend %heading-color;
+	margin-bottom: 13px;
+	font-size: 12px;
+}
+.gel-heading-description{
+	margin-top: 11px;
+	margin-bottom: 0;
+}
+.gel-heading-separate{
+	margin-top: 5px;
+}
+.gel-heading.has-line-separator .gel-heading-description{
+	padding-top: 10px;
+}
+.custom-gel-heading-separate{
+	&.gel-heading.has-line-separator{
+		position: relative;
+		padding-left: 40px;
+		.gel-heading-description{
+			padding-top: 1px;
+		}
+	}
+	.gel-heading-separate{
+		position: absolute;
+		left: 0;
+		height: 1px;
+		width: 14px;
+		top: 8px;
+	}
+}
+@media (max-width: 991px) {
+	.custom-heading-landing{
+		&.gel-heading{
+			text-align: center !important;
+		}
+		.gel-heading-title{
+			font-family: $font-primary !important;
+			color: $color_primary !important;
+		}
+	}
+}

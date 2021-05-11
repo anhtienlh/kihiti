@@ -1,0 +1,8 @@
+.g5portfolio__post-cat {
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+   a {
+     color: inherit !important;
+     @include transition(all .5s);
+   }
+ }

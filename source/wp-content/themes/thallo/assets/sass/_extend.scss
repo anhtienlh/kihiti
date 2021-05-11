@@ -1,0 +1,98 @@
+%clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.font-body,
+%font-body {
+	font-family: $font_body;
+}
+
+
+.font-primary,
+%font-primary {
+	font-family: $font_primary;
+}
+
+.text-color,
+%text-color {
+	color: $color_text_main;
+}
+
+%accent-text-color {
+	color: $color_accent;
+}
+
+%accent-bg-color {
+	background-color: $color_accent;
+}
+
+%accent-border-color {
+	border-color: $color_accent;
+}
+%accent-bg-gradient-color {
+	background: $color_accent; /* Old browsers */
+	background: -moz-linear-gradient(135deg,  $color_accent  0%, adjust-brightness-color($color_accent,15%) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(135deg,  $color_accent 0%,adjust-brightness-color($color_accent,15%) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  $color_accent 0%,adjust-brightness-color($color_accent,15%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3192', endColorstr='#7f22e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.accent-foreground-color,
+%accent-foreground-color {
+	color: contrast-color($color_accent);
+}
+
+.accent-foreground-bg-color,
+%accent-foreground-bg-color {
+	background-color: contrast-color($color_accent);
+}
+
+
+.disabled-color,
+%disabled-color {
+	color: $color_disabled;
+}
+
+
+
+.caption-color,
+%caption-color {
+	color: $color_text_caption;
+}
+
+.border-color,
+%border-color {
+	border-color: $color_border;
+}
+
+.heading-color,
+%heading-color {
+	color: $color_text_heading;
+}
+
+
+
+
+.primary-color,
+%primary-color {
+	color: $color_primary;
+}
+
+.primary-bg-color,
+%primary-bg-color {
+	background-color: $color_primary;
+}
+
+.secondary-color,
+%secondary-color {
+	color: $color_secondary;
+}
+
+.secondary-bg-color,
+%secondary-bg-color {
+	background-color: $color_secondary;
+}

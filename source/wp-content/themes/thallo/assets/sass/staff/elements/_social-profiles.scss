@@ -1,0 +1,8 @@
+ul.g5staff__loop-social-profiles {
+	li {
+		a:hover {
+			@extend %accent-text-color;
+		}
+	}
+
+}

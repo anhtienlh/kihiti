@@ -1,0 +1,29 @@
+.g5blog__post-widget {
+  .g5blog__post-inner {
+    @include flex-wrap();
+  }
+
+  .g5blog__post-featured {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .g5blog__post-meta {
+    margin-bottom: 9px;
+  }
+
+  .g5blog__post-title {
+    margin-bottom: 0;
+    line-height: 1.625;
+  }
+
+}
+.g5blog__widget-post-list {
+  .g5blog__post-widget {
+    margin-bottom: 25px;
+  }
+}
+
+.g5core__image-size-blog-widget:before {
+  padding-top: 66.66666666666667%;
+}

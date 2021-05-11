@@ -1,0 +1,45 @@
+.g5core__cate-filer {
+  @include d-flex();
+  @include flex-wrap();
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $border_color;
+  li {
+    margin: 0;
+  }
+  li a {
+    color: inherit;
+  }
+  > li + li {
+    margin-left: 30px;
+  }
+
+  li {
+    @include transition(color .5s);
+    img,
+    i {
+      margin-right: 5px;
+    }
+  }
+  ul.dropdown-menu {
+    color: inherit;
+    li {
+      padding: 0.25rem 1.5rem;
+      white-space: nowrap;
+    }
+  }
+}
+
+.g5core__cate-filer-center {
+  @include justify-content-center();
+}
+
+.g5core__cate-filer-right {
+  @include justify-content-end();
+}
+
+[data-items-wrapper] .g5core__cate-filer {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,28 @@
+@import "skins/skins";
+@import "grid";
+.g5portfolio__layout-metro-1 {
+  .g5core__paging {
+    margin-top: 30px;
+  }
+}
+
+.g5portfolio__layout-justified {
+  .g5core__paging {
+    margin-top: 50px;
+  }
+}
+
+.g5element__portfolio-slider {
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    @include transform(translateY(-50%));
+  }
+  .slick-prev {
+    left: 10px;
+  }
+
+  .slick-next {
+    right: 10px;
+  }
+}

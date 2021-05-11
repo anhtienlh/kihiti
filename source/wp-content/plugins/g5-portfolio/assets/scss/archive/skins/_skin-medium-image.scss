@@ -1,0 +1,10 @@
+.g5portfolio__post-skin-medium-image {
+  .g5portfolio__post-inner {
+    @include d-flex();
+  }
+  .g5portfolio__post-featured {
+    width: 100px;
+    @include flex-shrink-0();
+    margin-right: 20px;
+  }
+}

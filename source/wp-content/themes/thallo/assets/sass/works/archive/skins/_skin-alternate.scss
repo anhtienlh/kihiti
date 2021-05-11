@@ -1,0 +1,30 @@
+.g5works__post-skin-alternate {
+	.g5works__post-inner {
+		@include d-flex();
+		@include align-items-center();
+		@include border-radius(5px);
+		@include transition(box-shadow .3s);
+		@include box-shadow(0 0 0 1px $color_border);
+		&:hover {
+			@include box-shadow( 0px 2px 18.9px 8.1px rgba(204, 204, 233, 0.15));
+		}
+	}
+	.g5works__post-featured {
+		width: 300px;
+		@include flex-shrink-0();
+		@include align-self-stretch();
+
+	}
+
+	.g5core__entry-thumbnail {
+		@include border-radius(5px 0 0 5px);
+		&:after {
+			display: none;
+		}
+	}
+
+	.g5works__post-content {
+		padding: 40px 30px;
+		@include flex-fill();
+	}
+}

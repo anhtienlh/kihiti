@@ -1,0 +1,68 @@
+div.vc_toggle {
+	.vc_toggle_title h4 {
+		font-size: 20px;
+		letter-spacing: -0.025em;
+	}
+	.vc_toggle_content {
+		margin-top: 10px;
+		p {
+			font-size: 15px;
+		}
+	}
+
+}
+
+.faq-active-bg-blue {
+	div.vc_toggle {
+		padding: 26px 0px 13px 30px !important;
+		margin: 0;
+		border-bottom: 1px solid;
+		@extend %border-color;
+		@include transition(all .3s);
+		&.vc_toggle_active {
+			border-color: transparent;
+			margin-bottom: 12px;
+			.vc_toggle_icon {
+				@extend %accent-bg-color;
+				&:before, &:after {
+					background-color: #fff;
+				}
+			}
+		}
+		&.vc_toggle_active {
+			background-color: #f2f9ff;
+		}
+		.vc_toggle_title {
+			padding-right: 60px;
+			h4 {
+				font-size: 1rem;
+			}
+			i {
+				right: 30px;
+			}
+		}
+		.vc_toggle_content p {
+			margin-bottom: 10px;
+		}
+	}
+
+	.vc_toggle_content, .vc_toggle_title {
+		padding-left: 0px;
+	}
+	.vc_toggle_content {
+		padding-right: 117px;
+	}
+
+	.vc_toggle_title i {
+		left: unset !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.faq-active-bg-blue {
+		.vc_toggle_content {
+			padding-right: 60px;
+		}
+	}
+}

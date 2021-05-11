@@ -1,0 +1,120 @@
+
+.gel-pricing {
+	padding: 19px 1.5rem 40px;
+	&:hover{
+		@include box-shadow(0px 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+	}
+}
+.pricing-price-number, .pricing-price-currency {
+	margin: 0 !important;
+}
+.pricing-image {
+	margin-bottom: 32px;
+	margin-top: 20px;
+}
+.pricing-name {
+	font-size: 20px;
+	@extend %heading-color;
+	font-weight: bold;
+	letter-spacing: -0.025em;
+}
+
+.pricing-price {
+	@include d-flex();
+	@include align-items-end();
+	@include justify-content-center();
+	.pricing-price-currency,
+	.pricing-price-number,
+	.pricing-price-duration{
+		letter-spacing: -0.04em;
+		@extend %primary-color;
+	}
+}
+.pricing-list-center li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.custom-pricing-btn{
+	.pricing-button a.btn {
+		padding-left: 57px;
+		padding-right: 57px;
+		font-size: 12px;
+	}
+}
+
+.pricing-price-duration {
+	@extend %font-primary;
+}
+.price{
+	margin-right: 5px;
+}
+
+.pricing-featured-text {
+	border-bottom: 1px solid lighten($color_accent, 10%);
+	padding: 9px 0;
+	span {
+		font-size: $font_size_sm;
+		@extend %accent-foreground-color;
+	}
+}
+.pricing-feature-desc{
+	font-size: 15px;
+}
+
+.pricing-button {
+	margin-top: 2rem;
+	.btn{
+		@include box-shadow(0px 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+		border: none;
+		&.btn-round{
+			@include border-radius(5em);
+		}
+	}
+}
+
+
+.gel-pricing-line {
+	@extend %border-color;
+	.pricing-features {
+		&:before {
+			content: "";
+			height: 1px;
+			margin-top:19px;
+			margin-bottom: 17px;
+			display: block;
+			background-color: $color_border;
+		}
+	}
+
+}
+
+.gel-pricing-flag {
+	&:before {
+		content: "";
+		width: 0;
+		height: 0;
+		border-right: 10px solid #f03b42;
+		border-left: 10px solid #f03b42;
+		border-bottom: 10px solid transparent;
+		border-top: 25px solid #f03b42;
+		position: absolute;
+		top: 0;
+		right: 20px;
+	}
+}
+
+.gel-pricing-style-4 {
+	.pricing-price {
+		float: right;
+	}
+	.pricing-name{
+		float: left;
+		padding-top: 8px;
+	}
+}
+.gel-pricing-style-5{
+	.pricing-price{
+		margin-top: 15px;
+	}
+}
+

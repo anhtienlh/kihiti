@@ -1,0 +1,334 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Careers\n"
+"POT-Creation-Date: 2019-10-28 16:00+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-careers.php:60
+msgid ""
+"G5 Careers is enabled but not effective. It requires G5 Core in order "
+"to work."
+msgstr ""
+
+#: inc/admin/permalink.class.php:31
+msgid "Works base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:52
+msgctxt "slug"
+msgid "careers"
+msgstr ""
+
+#: inc/admin/post-types.class.php:34 inc/config-options.class.php:31
+#: inc/config-options.class.php:157
+#: templates/shortcodes/careers/config.php:8
+msgid "Careers"
+msgstr ""
+
+#: inc/admin/post-types.class.php:56
+msgid "Visit Careers"
+msgstr ""
+
+#: inc/config-options.class.php:41
+msgid "Careers Settings"
+msgstr ""
+
+#: inc/config-options.class.php:47 inc/config-options.class.php:239
+msgid "Show Title"
+msgstr ""
+
+#: inc/config-options.class.php:48 inc/config-options.class.php:240
+msgid "Turn Off this option if you want to hide title on single"
+msgstr ""
+
+#: inc/config-options.class.php:54 inc/config-options.class.php:245
+msgid "Show Meta"
+msgstr ""
+
+#: inc/config-options.class.php:55 inc/config-options.class.php:246
+msgid "Turn Off this option if you want to hide meta on single"
+msgstr ""
+
+#: inc/config-options.class.php:62 inc/functions/helper.php:77
+#: inc/settings.class.php:39 templates/listing.php:69
+#: templates/listing.php:102
+msgid "Department"
+msgstr ""
+
+#: inc/config-options.class.php:69 inc/functions/helper.php:83
+#: inc/settings.class.php:38 templates/listing.php:66
+#: templates/listing.php:98
+msgid "Location"
+msgstr ""
+
+#: inc/config-options.class.php:75 inc/functions/helper.php:89
+#: inc/settings.class.php:40 templates/listing.php:72
+#: templates/listing.php:106
+msgid "Salary"
+msgstr ""
+
+#: inc/config-options.class.php:82 inc/functions/helper.php:95
+#: inc/settings.class.php:41 templates/listing.php:75
+#: templates/listing.php:111
+msgid "Expired Date"
+msgstr ""
+
+#: inc/config-options.class.php:91
+msgid "Additional Details"
+msgstr ""
+
+#: inc/config-options.class.php:96 inc/settings.class.php:22
+msgid "Title"
+msgstr ""
+
+#: inc/config-options.class.php:101
+msgid "Enter additional title"
+msgstr ""
+
+#: inc/config-options.class.php:104
+msgid "Value"
+msgstr ""
+
+#: inc/config-options.class.php:110
+msgid "Enter additional value"
+msgstr ""
+
+#: inc/config-options.class.php:116
+msgid "Contact Type"
+msgstr ""
+
+#: inc/config-options.class.php:117
+msgid "Specify your contact type"
+msgstr ""
+
+#: inc/config-options.class.php:120
+msgid "Hide"
+msgstr ""
+
+#: inc/config-options.class.php:121
+msgid "Form"
+msgstr ""
+
+#: inc/config-options.class.php:122
+msgid "Link"
+msgstr ""
+
+#: inc/config-options.class.php:128
+msgid "Contact Us Form"
+msgstr ""
+
+#: inc/config-options.class.php:132
+msgid "Select Form"
+msgstr ""
+
+#: inc/config-options.class.php:134
+msgid "Select form to contact us"
+msgstr ""
+
+#: inc/config-options.class.php:142
+msgid "Contact Us Link"
+msgstr ""
+
+#: inc/config-options.class.php:156
+msgid "Careers Options"
+msgstr ""
+
+#: inc/config-options.class.php:172
+msgid "Archive Listing"
+msgstr ""
+
+#: inc/config-options.class.php:177
+#: templates/shortcodes/careers/config.php:16
+msgid "Table Columns"
+msgstr ""
+
+#: inc/config-options.class.php:184
+#: templates/shortcodes/careers/config.php:43
+msgid "Table Responsive"
+msgstr ""
+
+#: inc/config-options.class.php:185
+#: templates/shortcodes/careers/config.php:44
+msgid ""
+"Turn Off this option if you want to disable responsive table on mobile"
+msgstr ""
+
+#: inc/config-options.class.php:190 inc/functions/helper.php:49
+msgid "Sorting"
+msgstr ""
+
+#: inc/config-options.class.php:195
+msgid "Order By"
+msgstr ""
+
+#: inc/config-options.class.php:196
+msgid "Select how to sort retrieved service."
+msgstr ""
+
+#: inc/config-options.class.php:203
+msgid "Order"
+msgstr ""
+
+#: inc/config-options.class.php:204 inc/functions/helper.php:55
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/config-options.class.php:213
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/config-options.class.php:214
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:221
+msgid "Post Paging"
+msgstr ""
+
+#: inc/config-options.class.php:222
+#: templates/shortcodes/careers/config.php:65
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:234
+msgid "Single Careers"
+msgstr ""
+
+#: inc/config-options.class.php:251
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:252
+msgid "Turn Off this option if you want to hide share on single careers"
+msgstr ""
+
+#: inc/functions/helper.php:12
+msgid "Show"
+msgstr ""
+
+#: inc/functions/helper.php:15
+msgid "All"
+msgstr ""
+
+#: inc/functions/helper.php:16
+msgid "New In"
+msgstr ""
+
+#: inc/functions/helper.php:17 inc/functions/helper.php:24
+msgid "Narrow Careers"
+msgstr ""
+
+#: inc/functions/helper.php:20 inc/functions/helper.php:34
+#: inc/functions/helper.php:45 inc/functions/helper.php:53
+msgid "Careers Filter"
+msgstr ""
+
+#: inc/functions/helper.php:32
+msgid "Enter List of Careers"
+msgstr ""
+
+#: inc/functions/helper.php:39
+msgid "Order by"
+msgstr ""
+
+#: inc/functions/helper.php:43
+msgid "Select how to sort retrieved careers."
+msgstr ""
+
+#: inc/settings.class.php:21
+msgid "Date"
+msgstr ""
+
+#: inc/settings.class.php:23
+msgid "Random"
+msgstr ""
+
+#: inc/settings.class.php:24
+msgid "Menu Order"
+msgstr ""
+
+#: inc/settings.class.php:30
+msgid "ASC"
+msgstr ""
+
+#: inc/settings.class.php:31
+msgid "DESC"
+msgstr ""
+
+#: inc/settings.class.php:37 templates/listing.php:63
+#: templates/listing.php:94
+msgid "Job Title"
+msgstr ""
+
+#: templates/loop/content-none.php:7
+msgid "No careers were found matching your selection."
+msgstr ""
+
+#: templates/popup/contact.php:13
+msgid "Apply for this position"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:9
+msgid "Display list of careers"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:32
+msgid "Column"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:33
+msgid "Specify your column"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:50
+msgid "Careers Per Page"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:51
+msgid "Enter number of careers per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:57
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:58
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/careers/config.php:64
+msgid "Paging"
+msgstr ""
+
+#: templates/shortcodes/single-careers-meta/config.php:8
+msgid "Careers Single Meta"
+msgstr ""
+
+#: templates/shortcodes/single-careers-meta/config.php:9
+msgid "Display meta of single careers"
+msgstr ""
+
+#: templates/single/contact-us.php:15 templates/single/contact-us.php:26
+msgid "Apply Now"
+msgstr ""

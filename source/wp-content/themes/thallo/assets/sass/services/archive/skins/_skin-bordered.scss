@@ -1,0 +1,122 @@
+.g5services__post-skin-bordered {
+	.g5services__post-inner {
+		@extend %border-color;
+		@include border-radius(5px);
+		border: 1px solid;
+		position: relative;
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			@extend %accent-bg-gradient-color;
+			opacity: 0;
+			z-index: 1;
+			@include transition(opacity .3s);
+		}
+
+
+		&:hover {
+			&:before {
+				opacity: 0.8;
+			}
+			.g5services__post-content {
+				color: #fff;
+				.g5services__post-cat,
+				.g5services__loop-view-more,
+				.g5services__post-title {
+					color: inherit;
+					&:hover {
+						opacity: 0.9;
+					}
+
+				}
+			}
+		}
+
+	}
+
+	.g5core__entry-thumbnail,
+	.g5core__entry-thumbnail-image img {
+		@include border-radius(5px 5px 0 0);
+	}
+
+	.g5services__post-content {
+		padding: 25px 30px 25px 30px;
+		position: relative;
+		z-index: 2;
+		border: none;
+		margin-top: 0;
+	}
+}
+.custom-services-col-3-skin-bordered{
+
+	.g5services__post-skin-bordered {
+		.g5services__post-inner {
+			border: none;
+			&:hover:before {
+				opacity: 0;
+			}
+		}
+
+		.g5core__entry-thumbnail,
+		.g5core__entry-thumbnail-image img {
+			@include border-radius(0);
+		}
+	}
+
+
+
+
+	.slick-track {
+		@include d-flex();
+		.slick-slide {
+			border-right: 1px solid;
+			@extend %border-color;
+			position: relative;
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				@extend %accent-bg-gradient-color;
+				opacity: 0;
+				z-index: 1;
+				@include transition(opacity .3s);
+			}
+
+			&:hover {
+				&:before {
+					opacity: 0.8;
+				}
+				.g5services__post-content {
+					color: #fff;
+					.g5services__post-cat,
+					.g5services__loop-view-more,
+					.g5services__post-title {
+						color: inherit;
+						&:hover {
+							opacity: 0.9;
+						}
+
+					}
+				}
+			}
+
+
+		}
+	}
+
+	.slick-list {
+		border: 1px solid;
+		@extend %border-color;
+		@include border-radius(5px);
+	}
+
+}

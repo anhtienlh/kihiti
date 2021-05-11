@@ -1,0 +1,41 @@
+.g5careers-contact-popup {
+	margin: auto;
+	width: 420px;
+	max-width: 90%;
+
+	.modal-content {
+		@include box-shadow(0 0 15px 5px rgba(0, 0, 0, 0.1));
+		@include border-radius(5px);
+		border: none;
+	}
+
+	.modal-body,
+	.modal-header {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	label {
+		display: block;
+	}
+
+	input[type=text],
+	input[type=email],
+	input[type=url],
+	input[type=password],
+	input[type=search],
+	input[type=number],
+	input[type=tel],
+	input[type=range],
+	input[type=date],
+	input[type=month],
+	input[type=week],
+	input[type=time],
+	input[type=datetime],
+	input[type=datetime-local],
+	input[type=color],
+	textarea,
+	select {
+		width: 100%;
+	}
+}

@@ -1,0 +1,101 @@
+@mixin widget-archive() {
+	list-style: none;
+	padding: 0;
+	margin: -0.5rem 0 0 0;
+
+	li {
+		position: relative;
+		> a {
+			display: inline-block;
+			padding: 0.5rem 0;
+			position: relative;
+			line-height: 20px;
+			min-height: 36px;
+			letter-spacing: -0.025em;
+			@extend %heading-color;
+			&:hover {
+				@extend %accent-text-color;
+			}
+		}
+	}
+
+	.current_page_ancestor,
+	.current_page_parent,
+	.current-cat-parent,
+	.current-cat-ancestor {
+		> ul {
+			display: block;
+		}
+	}
+	.current-cat {
+		> a {
+			@extend %accent-text-color;
+		}
+	}
+
+	ul.children,
+	ul.sub-menu {
+		list-style: none;
+		padding: 0 0 0 20px;
+		margin: 0;
+	}
+}
+
+@mixin widget-meta() {
+	padding: 0;
+	margin: -0.5rem 0 0 0;
+	list-style: none;
+	.children {
+		padding-left: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		padding: 0.5rem 0;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+
+	a {
+		color: inherit;
+		&:hover {
+			@extend %accent-text-color;
+		}
+	}
+
+}
+
+@mixin widget-tag() {
+	font-weight: bold;
+	text-transform: uppercase;
+	label {
+		font-size: 14px;
+		@extend %heading-color;
+		margin: 0 15px 0 0;
+	}
+	a {
+		letter-spacing: -0.05em;
+		color: inherit;
+		font-size: 12px !important;
+
+		height: 40px;
+		line-height: 40px;
+		display: inline-block;
+		padding: 0 20px;
+		@include box-shadow(0 0 0 1px $color_border inset);
+		@include border-radius(20px);
+		@include transition(all .3s);
+		&:hover {
+			background-size: 200% auto;
+			@extend %accent-foreground-color;
+			background-image: -webkit-gradient(linear, left top, right top, from($color_accent), color-stop(51%, adjust-brightness-color($color_accent, 15%)), to($color_accent));
+			background-image: linear-gradient(to right, $color_accent 0%, adjust-brightness-color($color_accent, 15%) 51%, $color_accent 100%);
+			@include box-shadow(none);
+		}
+
+		&:not(:last-child) {
+			margin: 0 6px 10px 0;
+		}
+	}
+}

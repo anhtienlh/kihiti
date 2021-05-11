@@ -1,0 +1,132 @@
+@import "../sass/variables";
+
+.editor-styles-wrapper.editor-styles-wrapper {
+	flex: 0 0 auto;
+	.editor-post-title__block .editor-post-title__input {
+		font-family: $font_body !important;
+		font-size: 36px !important;
+		font-weight: 700 !important;
+		letter-spacing: -0.025em;
+		color: $color_text_heading;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+
+
+
+	.wp-block-table__cell-content {
+		padding: 0;
+	}
+
+	.components-icon-button.block-editor-block-switcher__toggle {
+		overflow: hidden;
+	}
+
+	.wp-block-quote cite,
+	.wp-block-quote footer,
+	.wp-block-quote__citation {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: -0.025em;
+	}
+
+	.wp-block-pullquote .wp-block-pullquote__citation {
+		font-weight: bold;
+		margin-top: 25px;
+	}
+
+
+	.wp-block-pullquote.is-style-solid-color .wp-block-pullquote__citation {
+		text-transform: uppercase;
+		color: inherit;
+	}
+
+	.wp-block {
+		max-width: $content_width;
+	}
+
+	.wp-block[data-align=full] {
+		max-width: none;
+	}
+	.wp-block[data-align=wide] {
+		max-width: $container_width - $grid_gutter_width;
+	}
+	line-height: $font_line_height_body;
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 2rem;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.wp-block-cover {
+		a {
+			color: inherit;
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.wp-block-categories ul,
+	ul.wp-block-archives {
+		padding-left: 0;
+	}
+
+	.wp-block-categories ul {
+		list-style-type: none;
+	}
+}
+
+
+.wp-block-freeform.block-library-rich-text__tinymce {
+	.h1 {
+		font-size: $font_size_h1;
+	}
+
+	.h2 {
+		font-size: $font_size_h2;
+
+	}
+
+	.h3 {
+		font-size: $font_size_h3;
+	}
+
+	.h4 {
+		font-size: $font_size_h4;
+	}
+
+	.h5 {
+		font-size: $font_size_h5;
+	}
+
+	.h6 {
+		font-size: $font_size_h6;
+	}
+}
+
+
+
+.wp-block-image .components-resizable-box__container {
+	display: block;
+}
+
+
+
+
+
+
+body.has-sidebar {
+	.editor-styles-wrapper {
+		.wp-block,
+		.wp-block[data-align=full],
+		.wp-block[data-align=wide] {
+			//max-width: ($container_width * (100 - $sidebar_width) / 100 - $grid_gutter_width) + 30px;
+			max-width: ($container_width * (100 - $sidebar_width) / 100 - $grid_gutter_width);
+		}
+	}
+}

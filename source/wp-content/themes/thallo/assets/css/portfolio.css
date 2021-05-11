@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* ## Elements */
+.g5portfolio__post-title {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.g5portfolio__post-cat {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 5px 0 0 0;
+}
+.g5portfolio__post-featured.active .g5core__entry-thumbnail:after,
+.g5portfolio__post-featured:hover .g5core__entry-thumbnail:after {
+  opacity: 0.7;
+}
+
+.g5portfolio__post-excerpt {
+  margin-top: 17px;
+}
+
+.white-text-color .g5portfolio__post-title {
+  color: inherit !important;
+  font-size: 16px;
+}
+.white-text-color .g5portfolio__post-title:hover {
+  opacity: 0.9;
+}
+.white-text-color .g5portfolio__post-cat {
+  color: #c2c2c2;
+}
+.white-text-color .g5portfolio__post-cat:hover {
+  opacity: 0.9;
+}
+
+/* ## Archive */
+.g5portfolio__post-skin-modern .g5portfolio__post-content {
+  color: #fff;
+}
+.g5portfolio__post-skin-modern .g5portfolio__post-title:hover {
+  opacity: 0.7;
+}
+.g5portfolio__post-skin-modern .g5portfolio__post-cat a:hover {
+  opacity: 0.7;
+}
+.g5portfolio__post-skin-modern.modern-center .g5portfolio__post-cat {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+.g5portfolio__post-skin-modern.modern-center .g5portfolio__post-title {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.g5portfolio__post-skin-modern.modern-bottom-left .g5portfolio__post-featured:hover .g5portfolio__post-title {
+  -webkit-transition: all 0.4s ease-out 0.25s;
+  transition: all 0.4s ease-out 0.25s;
+}
+.g5portfolio__post-skin-modern.modern-bottom-left .g5portfolio__post-featured:hover .g5portfolio__post-cat {
+  -webkit-transition: all 0.4s ease-out 0.5s;
+  transition: all 0.4s ease-out 0.5s;
+}
+
+.g5portfolio__post-skin-hover-trim .g5core__entry-thumbnail:after {
+  margin: 15px;
+}
+.g5portfolio__post-skin-hover-trim .g5core__zoom-image {
+  right: 15px;
+  bottom: 15px;
+}
+
+.g5portfolio__post-skin-classic .g5portfolio__post-featured {
+  margin-bottom: 23px;
+}
+.g5portfolio__post-skin-classic .g5portfolio__post-inner {
+  padding-bottom: 20px;
+}
+
+.g5element__portfolio-slider .slick-prev {
+  margin: 0;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  left: -50px;
+}
+.g5element__portfolio-slider .slick-next {
+  -webkit-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+  right: -50px;
+}
+
+.g5portfolio__listing-wrap .g5core__paging {
+  margin-top: 40px;
+}
+
+@media (max-width: 1400px) {
+  .g5element__portfolio-slider .slick-arrows {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .g5portfolio__layout-thallo-01 .g5core__entry-thumbnail {
+    height: auto !important;
+  }
+  .g5portfolio__layout-thallo-01 .g5core__entry-thumbnail:before {
+    display: block;
+    padding-top: 56.25%;
+  }
+}
+/* ## Single */
+.g5portfolio__single-navigation {
+  margin-top: 0;
+}
+.g5portfolio__single-navigation .nav-links {
+  padding: 0;
+  border: none;
+}
+.g5portfolio__single-navigation .nav-links > div {
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  width: auto;
+}
+.g5portfolio__single-navigation .nav-links > div.disabled,
+.g5portfolio__single-navigation .nav-links > div a {
+  width: 45px;
+  height: 45px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 5px 40.18px 8.82px rgba(130, 112, 161, 0.19);
+  box-shadow: 1px 5px 40.18px 8.82px rgba(130, 112, 161, 0.19);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+.g5portfolio__single-navigation .nav-links > div.disabled {
+  text-align: center;
+  line-height: 45px;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.g5portfolio__single-navigation .nav-links > div.disabled:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  content: "";
+}
+.g5portfolio__single-navigation .nav-links > div.disabled.nav-next:before {
+  content: "";
+}
+.g5portfolio__single-navigation .nav-links > div.nav-previous {
+  margin-right: 20px;
+}
+
+.g5portfolio__single-gallery-slider .slick-prev {
+  margin: 0;
+  left: 40px;
+}
+.g5portfolio__single-gallery-slider .slick-next {
+  right: 40px;
+}
+
+.g5portfolio__single-meta {
+  letter-spacing: -0.025em;
+  font-size: 15px;
+}
+.g5portfolio__single-meta label {
+  text-transform: uppercase;
+  display: block;
+  margin: 0 0 7px 0;
+}
+.g5portfolio__single-meta > div {
+  margin-bottom: 27px;
+}
+.g5portfolio__single-meta:before {
+  width: 70px;
+  height: 5px;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  margin-bottom: 33px;
+}
+
+@media (max-width: 991px) and (min-width: 480px) {
+  .g5portfolio__single-meta > div {
+    float: left;
+    width: 50%;
+  }
+}
+.g5portfolio__single-related-wrap {
+  margin-top: 66px;
+}
+.g5portfolio__single-related-wrap h4 {
+  margin-bottom: 34px;
+  font-size: 20px;
+}
+
+.g5portfolio__single-title {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+body.g5portfolio__single-layout-1 .g5portfolio__single-gallery {
+  margin-bottom: 64px;
+}
+@media only screen and (min-width: 1200px) {
+  body.g5portfolio__single-layout-1.no-sidebar .g5portfolio__single-meta {
+    padding-left: 8.333333%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  body.g5portfolio__single-layout-1 .entry-content {
+    margin-bottom: 62px;
+  }
+}
+
+body.g5portfolio__single-layout-2 .entry-content {
+  margin-bottom: 63px;
+}
+
+@media (max-width: 991px) {
+  body.g5portfolio__single-layout-2 .g5portfolio__single-gallery {
+    margin-bottom: 64px;
+  }
+}
+body.g5portfolio__single-layout-3 .entry-content {
+  margin-bottom: 63px;
+}
+
+@media (max-width: 991px) {
+  body.g5portfolio__single-layout-3 .g5portfolio__single-gallery {
+    margin-bottom: 64px;
+  }
+}
+@media (max-width: 991px) {
+  body.g5portfolio__single-layout-4 .entry-content {
+    margin-bottom: 62px;
+  }
+}
+.g5portfolio__single .entry-content {
+  margin-bottom: 0;
+}
+
+.g5portfolio__single-share-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 63px;
+  padding-top: 60px;
+  border-top: 1px solid;
+}
+.g5portfolio__single-share-wrap .g5core__social-share {
+  margin-right: auto;
+  padding-right: 30px;
+}
+.g5portfolio__single-share-wrap > .g5portfolio__single-navigation,
+.g5portfolio__single-share-wrap > div {
+  padding-top: 10px;
+}
+
+/*--------------------------------------------------------------
+## Extends css
+--------------------------------------------------------------*/
+.font-body {
+  font-family: "Open Sans";
+}
+
+.font-primary {
+  font-family: "Work Sans";
+}
+
+.text-color {
+  color: #7d7d7d;
+}
+
+.g5portfolio__post-title:hover, .g5portfolio__post-cat a:hover, .g5portfolio__single-navigation .nav-links > div.disabled,
+.g5portfolio__single-navigation .nav-links > div a, .g5portfolio__single-meta label {
+  color: #4b2bb0;
+}
+
+.g5portfolio__post-default .g5core__entry-thumbnail:after, .g5portfolio__single-navigation .nav-links > div.disabled:hover,
+.g5portfolio__single-navigation .nav-links > div a:hover, .g5portfolio__single-meta:before {
+  background-color: #4b2bb0;
+}
+
+.accent-foreground-color,
+.g5portfolio__single-navigation .nav-links > div.disabled:hover,
+.g5portfolio__single-navigation .nav-links > div a:hover {
+  color: #fff;
+}
+
+.accent-foreground-bg-color,
+.g5portfolio__single-navigation .nav-links > div.disabled,
+.g5portfolio__single-navigation .nav-links > div a {
+  background-color: #fff;
+}
+
+.disabled-color {
+  color: #ccc;
+}
+
+.caption-color {
+  color: #ababab;
+}
+
+.border-color,
+.g5portfolio__single-share-wrap {
+  border-color: #ebebeb;
+}
+
+.heading-color {
+  color: #000;
+}
+
+.primary-color {
+  color: #4f4f6f;
+}
+
+.primary-bg-color {
+  background-color: #4f4f6f;
+}
+
+.secondary-color {
+  color: #6428cb;
+}
+
+.secondary-bg-color {
+  background-color: #6428cb;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,31 @@
+@import "navigation";
+@import "gallery";
+@import "meta";
+@import "related";
+@import "title";
+@import "layout/layout";
+
+
+.g5portfolio__single {
+	.entry-content {
+		margin-bottom: 0;
+	}
+}
+
+.g5portfolio__single-share-wrap {
+	@include d-flex();
+	@include flex-wrap();
+	@include align-items-center();
+	margin-top: 63px;
+	padding-top: 60px;
+	border-top: 1px solid;
+	@extend %border-color;
+	.g5core__social-share {
+		margin-right: auto;
+		padding-right: 30px;
+	}
+	>.g5portfolio__single-navigation,
+	> div {
+		padding-top: 10px;
+	}
+}

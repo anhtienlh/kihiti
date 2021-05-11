@@ -1,0 +1,10 @@
+.g5staff__post-skin-02 {
+	.g5core__entry-thumbnail {
+		@include border-radius(100%);
+	}
+	.g5staff__post-featured {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 81.48148148148148%;
+	}
+}

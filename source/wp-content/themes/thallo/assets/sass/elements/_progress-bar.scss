@@ -1,0 +1,22 @@
+.vc_progress_bar{
+	h2.wpb_heading{
+		font-size: 22px;
+		font-weight: 800;
+	}
+	.vc_single_bar .vc_label {
+		font-weight: bold;
+		letter-spacing: -0.025em;
+	}
+}
+.vc_progress_bar.prb_label_above,
+.vc_progress_bar.prb_label_bellow {
+	.vc_general.vc_single_bar .vc_label{
+	padding-bottom: 22px;
+	padding-top: 26px;
+	}
+}
+.vc_progress_bar.prb_label_above{
+	h2.wpb_heading{
+		margin-bottom: 1px;
+	}
+}

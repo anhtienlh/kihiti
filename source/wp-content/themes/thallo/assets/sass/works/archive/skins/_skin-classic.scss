@@ -1,0 +1,24 @@
+.g5works__post-skin-classic {
+  .g5works__post-inner {
+    @include border-radius(5px);
+    @include transition(box-shadow .3s);
+    &:hover {
+      @include box-shadow( 0px 2px 18.9px 8.1px rgba(204, 204, 233, 0.15));
+      .g5core__entry-thumbnail {
+        @include border-radius(5px 5px 0 0);
+      }
+    }
+  }
+
+  .g5works__post-featured {
+    margin-bottom: 25px;
+  }
+
+  .g5works__post-content {
+    padding-bottom: 30px;
+  }
+
+  .g5works__post-inner {
+    margin-bottom: 0;
+  }
+}

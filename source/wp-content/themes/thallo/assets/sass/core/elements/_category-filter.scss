@@ -1,0 +1,40 @@
+.g5core__cate-filer {
+  border: none;
+  padding-bottom: 0;
+  li {
+    &:hover,
+    &:active,
+    &.active {
+      @extend %accent-text-color;
+    }
+  }
+
+  > li {
+    > a {
+      padding-bottom: 10px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+      &:before {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0%;
+        color: inherit;
+        background-color: currentColor;
+        position: absolute;
+        bottom: 0;
+        @include transition(width .3s);
+      }
+    }
+    &:hover,
+    &:active,
+    &.active {
+      > a:before {
+        width: 100%;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,120 @@
+/*
+Theme Name: Thallo
+Theme URI: https://thallo.g5plus.net/
+Author: G5Theme
+Author URI: https://themeforest.net/user/g5theme
+Description: Thallo business for WordPress
+Version: 1.0.4
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, three-columns, left-sidebar, right-sidebar, editor-style, post-formats, rtl-language-support, sticky-post, accessibility-ready
+Text Domain: thallo
+Domain Path: /languages/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Variable
+# Typography
+# Elements
+# Layout
+# Header
+# Footer
+# Page title
+# WP core
+# WP block
+# Blog
+# Widgets
+# 404
+# Helper
+# Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Variable
+--------------------------------------------------------------*/
+@import "assets/sass/variables";
+@import "assets/sass/mixin";
+@import "assets/sass/mixin-widget";
+
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+@import "assets/sass/typography";
+@import "assets/sass/button";
+
+
+/*--------------------------------------------------------------
+## Elements
+--------------------------------------------------------------*/
+@import "assets/sass/elements";
+@import "assets/sass/elements/elements";
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+@import "assets/sass/layout";
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "assets/sass/header";
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "assets/sass/footer";
+
+/*--------------------------------------------------------------
+## Page title
+--------------------------------------------------------------*/
+@import "assets/sass/pagetitle";
+
+/*--------------------------------------------------------------
+## WP core
+--------------------------------------------------------------*/
+@import "assets/sass/wp-core";
+@import "assets/sass/core/core";
+
+/*--------------------------------------------------------------
+## WP block
+--------------------------------------------------------------*/
+@import "assets/sass/wp-block";
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+@import "assets/sass/blog";
+@import "assets/sass/comment";
+@import "assets/sass/navigation";
+@import "assets/sass/blog/blog";
+
+
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+@import "assets/sass/widgets";
+
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+@import "assets/sass/404";
+
+/*--------------------------------------------------------------
+## Helper
+--------------------------------------------------------------*/
+@import "assets/sass/helper";
+@import "assets/sass/gutter";
+
+/*--------------------------------------------------------------
+## Responsive
+--------------------------------------------------------------*/
+@import "assets/sass/responsive";
+
+/*--------------------------------------------------------------
+## Extends css
+--------------------------------------------------------------*/
+@import "assets/sass/extend";

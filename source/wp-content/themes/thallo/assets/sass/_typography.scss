@@ -1,0 +1,484 @@
+//----------------------------------------------------------------------
+// Typography style
+//----------------------------------------------------------------------
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: $font_size_base;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+	overflow-x: hidden;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	@extend %font-body;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: $font_line_height_body;
+	letter-spacing: normal;
+	@extend %text-color;
+	background-color: $color_background_body;
+	text-rendering: optimizeLegibility;
+	text-align: left;
+	overflow-x: hidden;
+}
+
+[tabindex="-1"]:focus {
+	outline: 0 !important;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+	margin-top: $margin_element;
+	margin-bottom: $margin_element;
+	border: 0;
+	border-top: 1px solid $color_border;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	@extend %heading-color;
+	margin-top: 0;
+	margin-bottom: $margin_element/2;
+	font-weight: $font_weight_heading;
+	line-height: $font_line_height_heading;
+	clear: both;
+}
+
+h1, .h1 {
+	font-size: $font_size_h1;
+}
+
+h2, .h2 {
+	font-size: $font_size_h2;
+
+}
+
+h3, .h3 {
+	font-size: $font_size_h3;
+}
+
+h4, .h4 {
+	font-size: $font_size_h4;
+}
+
+h5, .h5 {
+	font-size: $font_size_h5;
+}
+
+h6, .h6 {
+	font-size: $font_size_h6;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: $margin_element;
+}
+
+abbr[title],
+abbr[data-original-title] {
+	text-decoration: underline;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted;
+	cursor: help;
+	border-bottom: 0;
+}
+
+address {
+	margin-bottom: $margin_element;
+	font-style: normal;
+	line-height: inherit;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul,
+ol,
+ul,
+dl {
+	margin-top: 0;
+	margin-bottom: $margin_element;
+}
+
+li > ol,
+li > ul,
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-bottom: .5rem;
+	margin-left: 0;
+}
+
+blockquote {
+	margin: 0 0 $margin_element;
+	border-left: solid 8px;
+	@extend %accent-border-color;
+	background-color: #f2f9ff;
+	padding: 30px 50px;
+	@include border-radius(4px);
+
+	p {
+		margin: 0;
+		@extend %heading-color;
+		font-style: italic;
+	}
+
+	cite {
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: -0.025em;
+		margin-top: 25px;
+		display: block;
+		font-style: normal;
+		@extend %accent-text-color;
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+dfn {
+	font-style: italic;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+sup {
+	top: -.5em;
+}
+
+a {
+	color: $color_link;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+	color: $color_link_hover;
+	text-decoration: none;
+}
+
+a:not([href]):not([tabindex]) {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+	outline: 0;
+}
+
+a:focus {
+
+}
+
+
+a > code {
+	color: inherit;
+}
+
+pre {
+	font-size: 87.5%;
+	margin-top: 0;
+	margin-bottom: $margin_element;
+	padding: 1rem;
+	overflow: auto;
+	-ms-overflow-style: scrollbar;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: inherit;
+}
+
+figure {
+	margin: 0 0 $margin_element;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+	max-width: 100%;
+	height: auto;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: $margin_element;
+	width: 100%;
+	max-width: 100%;
+	background-color: transparent;
+}
+
+table th,
+table td {
+	padding: 0.5rem;
+	vertical-align: top;
+	border: 1px solid $color_border;
+}
+
+table thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid $color_border;
+}
+
+caption {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	color: $color_gray;
+	text-align: left;
+	caption-side: bottom;
+}
+
+th {
+	text-align: inherit;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+	-webkit-appearance: listbox;
+}
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+fieldset {
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+legend {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin-bottom: .5rem;
+	font-size: 1.5rem;
+	line-height: inherit;
+	color: inherit;
+	white-space: normal;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type="search"] {
+	outline-offset: -2px;
+	-webkit-appearance: none;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	font: inherit;
+	-webkit-appearance: button;
+}
+
+output {
+	display: inline-block;
+}
+
+summary {
+	display: list-item;
+	cursor: pointer;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+@include selection() {
+	background-color: $color_accent;
+	color: contrast-color($color_accent);
+}
+
+mark,
+ins {
+	background: $color_background_mark;
+	text-decoration: none;
+	padding: 0 0.25rem;
+}
+
+big {
+	font-size: 125%;
+}
+
+/* Form style */
+form {
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	padding: 0 30px;
+	height: $height__input;
+	line-height: $height__input - 2px;
+	border: solid 1px $color_border_input;
+	color: $color_text_input;
+	background-color: $color_background_input;
+	max-width: 100%;
+	@include border-radius(30px);
+	font-size: 15px;
+	&:focus {
+		outline: none;
+	}
+}
+
+textarea,
+select,
+input[type] {
+	@include input-placeholder() {
+		color: $color_placeholder;
+	}
+}
+
+textarea {
+	padding-top: 15px;
+	padding-left: 25px;
+	height: auto;
+	line-height: 1.6;
+}
+
+select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: linear-gradient(45deg, transparent 50%, $color_accent 50%), linear-gradient(135deg, $color_accent 50%, transparent 50%) !important;
+	background-position: calc(100% - 20px) calc(20px), calc(100% - 15px) calc(20px), 100% 0 !important;
+	background-size: 5px 5px, 5px 5px, 2.5em 2.5em !important;
+	background-repeat: no-repeat !important;
+}
+
+
+.fal,
+.far,
+.fa,
+.fas {
+	font-family: 'Font Awesome 5 Pro' !important;
+}

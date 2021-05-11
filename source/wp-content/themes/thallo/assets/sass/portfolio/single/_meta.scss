@@ -1,0 +1,31 @@
+.g5portfolio__single-meta {
+  letter-spacing: -0.025em;
+  font-size: 15px;
+  label {
+    text-transform: uppercase;
+    @extend %accent-text-color;
+    display: block;
+    margin: 0 0 7px 0;
+  }
+  > div {
+    margin-bottom: 27px;
+  }
+
+  &:before {
+    width: 70px;
+    height: 5px;
+    @include border-radius(3px);
+    @extend %accent-bg-color;
+    content: '';
+    display: block;
+    margin-bottom: 33px;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 480px){
+  .g5portfolio__single-meta>div{
+    float: left;
+    width: 50%;
+  }
+}

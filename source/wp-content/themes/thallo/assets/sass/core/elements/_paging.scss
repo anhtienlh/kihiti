@@ -1,0 +1,25 @@
+.g5core__paging {
+  &.next-prev {
+    > a {
+
+      border: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      @extend %accent-text-color;
+      font-size: 12px;
+      @include box-shadow(1px 5px 40.18px 8.82px rgba(130, 112, 161, 0.19));
+      @include border-radius(100%);
+      &:hover {
+        @extend %accent-bg-color;
+        @extend %accent-border-color;
+        @extend %accent-foreground-color;
+      }
+
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}

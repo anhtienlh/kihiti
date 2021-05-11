@@ -1,0 +1,111 @@
+.g5portfolio__post-skin-modern {
+  .g5portfolio__post-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fafafa;
+  }
+
+  .g5core__entry-thumbnail:after {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .g5portfolio__post-title {
+    color: inherit;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .g5portfolio__post-cat {
+    color: inherit;
+    a {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+
+  &.modern-center {
+    .g5portfolio__post-content {
+      top: 0;
+      @include d-flex();
+      @include flex-column();
+      @include align-items-center();
+      @include justify-content-center();
+      text-align: center;
+      padding: 20px;
+    }
+
+    .g5portfolio__post-excerpt,
+    .g5portfolio__post-title {
+      opacity: 0;
+      @include transform(translateY(20px));
+      @include transition(all .3s ease-out 0s);
+    }
+
+    .g5portfolio__post-cat {
+      opacity: 0;
+      @include transform(translateY(-20px));
+      @include transition(all .3s ease-out 0s);
+
+    }
+
+    .g5portfolio__post-featured {
+      &:hover {
+        .g5portfolio__post-cat {
+          opacity: 1;
+          @include transform(translateY(0));
+          @include transition(all .5s ease-out .3s);
+        }
+
+        .g5portfolio__post-excerpt,
+        .g5portfolio__post-title {
+          opacity: 1;
+          @include transform(translateY(0));
+          @include transition(all .5s ease-out .3s);
+        }
+      }
+    }
+  }
+
+  &.modern-bottom-left {
+    .g5portfolio__post-content {
+      padding: 0 10px 40px 40px;
+    }
+
+    .g5portfolio__post-excerpt,
+    .g5portfolio__post-title,
+    .g5portfolio__post-cat {
+      opacity: 0;
+      @include transform(translateX(-20px));
+      @include transition(all .3s ease-out 0s);
+    }
+
+    .g5portfolio__post-featured {
+      &:hover {
+        .g5portfolio__post-excerpt,
+        .g5portfolio__post-title,
+        .g5portfolio__post-cat {
+          opacity: 1;
+          @include transform(translateX(0));
+        }
+
+        .g5portfolio__post-cat {
+          @include transition(all .4s ease-out .25s);
+        }
+
+        .g5portfolio__post-excerpt,
+        .g5portfolio__post-title {
+          @include transition(all .4s ease-out .5s);
+        }
+
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,11 @@
+.g5core__entry-thumbnail,
+.g5core__entry-thumbnail-image img {
+  @include border-radius(5px);
+}
+
+.g5core__gutter-0 {
+  .g5core__entry-thumbnail,
+  .g5core__entry-thumbnail-image img {
+    @include border-radius(0px);
+  }
+}

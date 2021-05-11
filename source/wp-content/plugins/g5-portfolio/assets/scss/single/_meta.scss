@@ -1,0 +1,16 @@
+.g5portfolio__single-meta {
+  label {
+    margin: 0 20px 0 0;
+    min-width: 100px;
+    font-weight: bold;
+  }
+  a {
+    color: inherit;
+  }
+  > div {
+    margin-bottom: 5px;
+    &:last-of-type {
+      margin-bottom: 0 !important;
+    }
+  }
+}

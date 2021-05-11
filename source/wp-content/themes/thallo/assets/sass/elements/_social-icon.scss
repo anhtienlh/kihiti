@@ -1,0 +1,25 @@
+.gel-social-icons .si-large {
+	font-size: 18px;
+}
+
+.gel-social-icons .list-si.si-circle li + li,
+.gel-social-icons .list-si.si-square li + li {
+	margin-left: 15px;
+}
+
+.custom-color-social-icons {
+	&.gel-social-icons .si-shape i {
+		@extend %text-color;
+	}
+	&.gel-social-icons {
+		a {
+			border: 1px solid;
+			&:hover {
+				@extend %border-color;
+			}
+		}
+		a:hover i {
+			@extend %accent-text-color;
+		}
+	}
+}

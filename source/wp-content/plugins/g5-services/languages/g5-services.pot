@@ -1,0 +1,731 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Services\n"
+"POT-Creation-Date: 2019-10-10 10:29+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-services.php:57
+msgid ""
+"G5 Services is enabled but not effective. It requires G5 Core in order "
+"to work."
+msgstr ""
+
+#: inc/admin/permalink.class.php:32
+msgid "Services base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:40
+msgid "Services category base"
+msgstr ""
+
+#: inc/admin/permalink.class.php:70
+msgctxt "slug"
+msgid "services"
+msgstr ""
+
+#: inc/admin/permalink.class.php:71
+msgctxt "slug"
+msgid "services-cat"
+msgstr ""
+
+#: inc/admin/post-types.class.php:49 inc/config-options.class.php:34
+#: inc/config-options.class.php:45
+#: templates/shortcodes/services/config.php:8
+msgid "Services"
+msgstr ""
+
+#: inc/admin/post-types.class.php:61 inc/admin/post-types.class.php:86
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:62
+msgid "Services Categories"
+msgstr ""
+
+#: inc/admin/post-types.class.php:63
+msgid "Category"
+msgstr ""
+
+#: inc/admin/post-types.class.php:84
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin/post-types.class.php:87 inc/functions/helper.php:38
+#: inc/widgets/services.class.php:29
+msgid "Featured"
+msgstr ""
+
+#: inc/admin/post-types.class.php:152
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/admin/post-types.class.php:186
+msgid "Visit Services"
+msgstr ""
+
+#: inc/assets.class.php:44 inc/functions/helper.php:99
+msgid "Select a category"
+msgstr ""
+
+#: inc/assets.class.php:45
+msgid "No matches found"
+msgstr ""
+
+#: inc/config-options.class.php:44
+msgid "Services Options"
+msgstr ""
+
+#: inc/config-options.class.php:61
+msgid "Archive Listing"
+msgstr ""
+
+#: inc/config-options.class.php:66
+msgid "Category Filter Enable"
+msgstr ""
+
+#: inc/config-options.class.php:67
+msgid "Turn On this option if you want to enable category filter"
+msgstr ""
+
+#: inc/config-options.class.php:72
+#: templates/shortcodes/services-slider/config.php:79
+#: templates/shortcodes/services/config.php:95
+msgid "Append Categories"
+msgstr ""
+
+#: inc/config-options.class.php:73
+#: templates/shortcodes/services-slider/config.php:83
+#: templates/shortcodes/services/config.php:99
+msgid ""
+"Change where the categories are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/config-options.class.php:81
+#: templates/shortcodes/services/config.php:22
+msgid "Layout"
+msgstr ""
+
+#: inc/config-options.class.php:82
+#: templates/shortcodes/services/config.php:23
+msgid "Specify your services layout"
+msgstr ""
+
+#: inc/config-options.class.php:89
+#: templates/shortcodes/services-slider/config.php:22
+#: templates/shortcodes/services/config.php:31
+msgid "Item Skin"
+msgstr ""
+
+#: inc/config-options.class.php:90
+msgid "Specify your services item skin"
+msgstr ""
+
+#: inc/config-options.class.php:97
+#: templates/shortcodes/services-slider/config.php:31
+#: templates/shortcodes/services/config.php:39
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:98
+#: templates/shortcodes/services-slider/config.php:32
+#: templates/shortcodes/services/config.php:40
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/config-options.class.php:104 inc/config-options.class.php:339
+#: templates/shortcodes/services-slider/config.php:49
+#: templates/shortcodes/services/config.php:57
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:105
+msgid "Specify your horizontal space between item."
+msgstr ""
+
+#: inc/config-options.class.php:112 inc/config-options.class.php:348
+#: templates/shortcodes/services-slider/config.php:89
+#: templates/shortcodes/services/config.php:105
+msgid "Columns"
+msgstr ""
+
+#: inc/config-options.class.php:123 inc/config-options.class.php:359
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:124
+msgid "Specify your columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:132 inc/config-options.class.php:368
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:133
+msgid "Specify your columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:141 inc/config-options.class.php:377
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-options.class.php:142
+msgid "Specify your columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:157
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:158
+msgid "Specify your columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:166
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:167
+msgid "Specify your columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:179
+#: templates/shortcodes/services-slider/config.php:94
+#: templates/shortcodes/services/config.php:109
+msgid "Image size"
+msgstr ""
+
+#: inc/config-options.class.php:180
+msgid "Enter your image size"
+msgstr ""
+
+#: inc/config-options.class.php:181
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:188
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/config-options.class.php:189
+msgid "Enter image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:198 inc/functions/helper.php:75
+msgid "Sorting"
+msgstr ""
+
+#: inc/config-options.class.php:203
+msgid "Order By"
+msgstr ""
+
+#: inc/config-options.class.php:204
+msgid "Select how to sort retrieved service."
+msgstr ""
+
+#: inc/config-options.class.php:211
+msgid "Order"
+msgstr ""
+
+#: inc/config-options.class.php:212 inc/functions/helper.php:81
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/config-options.class.php:223 inc/config-options.class.php:330
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/config-options.class.php:224
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:231 inc/config-options.class.php:415
+msgid "Post Paging"
+msgstr ""
+
+#: inc/config-options.class.php:232 inc/config-options.class.php:416
+#: templates/shortcodes/services/config.php:80
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:239
+#: templates/shortcodes/services-slider/config.php:71
+#: templates/shortcodes/services/config.php:87
+msgid "Animation"
+msgstr ""
+
+#: inc/config-options.class.php:240
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/config-options.class.php:247
+#: templates/shortcodes/services-slider/config.php:37
+#: templates/shortcodes/services/config.php:45
+msgid "Show Category"
+msgstr ""
+
+#: inc/config-options.class.php:252
+#: templates/shortcodes/services-slider/config.php:43
+#: templates/shortcodes/services/config.php:51
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/config-options.class.php:263
+msgid "Single Services"
+msgstr ""
+
+#: inc/config-options.class.php:268
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:269
+msgid "Turn Off this option if you want to hide navigation on single"
+msgstr ""
+
+#: inc/config-options.class.php:274
+msgid "Comment"
+msgstr ""
+
+#: inc/config-options.class.php:275
+msgid "Turn Off this option if you want to hide comment on single"
+msgstr ""
+
+#: inc/config-options.class.php:280
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:281
+msgid "Turn Off this option if you want to hide share on single services"
+msgstr ""
+
+#: inc/config-options.class.php:286
+msgid "Social Share"
+msgstr ""
+
+#: inc/config-options.class.php:287
+msgid "Select active social share links and sort them"
+msgstr ""
+
+#: inc/config-options.class.php:309 inc/config-options.class.php:315
+#: templates/single/related.php:120
+msgid "Related Services"
+msgstr ""
+
+#: inc/config-options.class.php:316
+msgid "Turn Off this option if you want to hide related services"
+msgstr ""
+
+#: inc/config-options.class.php:321
+msgid "Related Algorithm"
+msgstr ""
+
+#: inc/config-options.class.php:322
+msgid "Specify the algorithm of related services"
+msgstr ""
+
+#: inc/config-options.class.php:331
+msgid "Enter number of services per page you want to display"
+msgstr ""
+
+#: inc/config-options.class.php:340
+#: templates/shortcodes/services-slider/config.php:50
+#: templates/shortcodes/services/config.php:58
+msgid "Specify your horizontal space between services."
+msgstr ""
+
+#: inc/config-options.class.php:360
+msgid "Specify your post columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:369
+msgid "Specify your post columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:378
+msgid "Specify your post columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:393
+msgid "Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:394
+msgid "Specify your post columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:402
+msgid "Extra Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:403
+msgid "Specify your post columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/functions/helper.php:18
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/functions/helper.php:22
+msgid ""
+"Enter categories by names to narrow output (Note: only listed "
+"categories will be displayed, divide categories with linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/helper.php:33
+msgid "Show"
+msgstr ""
+
+#: inc/functions/helper.php:36
+msgid "All"
+msgstr ""
+
+#: inc/functions/helper.php:37
+msgid "New In"
+msgstr ""
+
+#: inc/functions/helper.php:39 inc/functions/helper.php:50
+msgid "Narrow Services"
+msgstr ""
+
+#: inc/functions/helper.php:42 inc/functions/helper.php:46
+#: inc/functions/helper.php:60 inc/functions/helper.php:71
+#: inc/functions/helper.php:79
+msgid "Services Filter"
+msgstr ""
+
+#: inc/functions/helper.php:58
+msgid "Enter List of Services"
+msgstr ""
+
+#: inc/functions/helper.php:65
+msgid "Order by"
+msgstr ""
+
+#: inc/functions/helper.php:69
+msgid "Select how to sort retrieved services."
+msgstr ""
+
+#: inc/settings.class.php:22
+msgid "Grid"
+msgstr ""
+
+#: inc/settings.class.php:29 inc/settings.class.php:61
+#: inc/settings.class.php:81
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:42
+msgid "Skin 01"
+msgstr ""
+
+#: inc/settings.class.php:46
+msgid "Skin 02"
+msgstr ""
+
+#: inc/settings.class.php:50
+msgid "Skin 03"
+msgstr ""
+
+#: inc/settings.class.php:54
+msgid "Skin 04"
+msgstr ""
+
+#: inc/settings.class.php:73
+msgid "by Category"
+msgstr ""
+
+#: inc/settings.class.php:74
+msgid "by Author"
+msgstr ""
+
+#: inc/settings.class.php:75
+msgid "by Category & Author"
+msgstr ""
+
+#: inc/settings.class.php:76
+msgid "Randomly"
+msgstr ""
+
+#: inc/settings.class.php:91
+msgid "Date"
+msgstr ""
+
+#: inc/settings.class.php:92 inc/widgets/categories.class.php:33
+#: inc/widgets/search.class.php:18 inc/widgets/services.class.php:18
+msgid "Title"
+msgstr ""
+
+#: inc/settings.class.php:93 inc/widgets/services.class.php:28
+msgid "Random"
+msgstr ""
+
+#: inc/settings.class.php:94
+msgid "Menu Order"
+msgstr ""
+
+#: inc/settings.class.php:100
+msgid "ASC"
+msgstr ""
+
+#: inc/settings.class.php:101
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/categories.class.php:27
+msgid "G5Plus: Services Categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:28
+msgid "A list or dropdown of services categories."
+msgstr ""
+
+#: inc/widgets/categories.class.php:35
+msgid "Services categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:40
+msgid "Show as dropdown"
+msgstr ""
+
+#: inc/widgets/categories.class.php:46
+msgid "Show services counts"
+msgstr ""
+
+#: inc/widgets/categories.class.php:52
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/widgets/categories.class.php:58
+msgid "Only show children of the current category"
+msgstr ""
+
+#: inc/widgets/categories.class.php:64
+msgid "Hide empty categories"
+msgstr ""
+
+#: inc/widgets/categories.class.php:69
+msgid "Maximum depth"
+msgstr ""
+
+#: inc/widgets/categories.class.php:221
+msgid "No services categories exist."
+msgstr ""
+
+#: inc/widgets/search.class.php:12
+msgid "G5Plus: Services Search"
+msgstr ""
+
+#: inc/widgets/search.class.php:13
+msgid "A search form for your services."
+msgstr ""
+
+#: inc/widgets/services.class.php:12
+msgid "G5Plus: Services"
+msgstr ""
+
+#: inc/widgets/services.class.php:13
+msgid "Display list services"
+msgstr ""
+
+#: inc/widgets/services.class.php:20
+msgid "Recent Services"
+msgstr ""
+
+#: inc/widgets/services.class.php:25
+msgid "Source"
+msgstr ""
+
+#: inc/widgets/services.class.php:30
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/services.class.php:31
+msgid "Oldest"
+msgstr ""
+
+#: inc/widgets/services.class.php:38
+msgid "Number of services to show:"
+msgstr ""
+
+#: templates/loop/content-none.php:7
+msgid "No services were found matching your selection."
+msgstr ""
+
+#: templates/searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: templates/searchform.php:10
+msgid "Search services&hellip;"
+msgstr ""
+
+#: templates/searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:8
+msgid "Services Slider"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:9
+msgid "Display slider of services"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:16
+#: templates/shortcodes/services/config.php:16
+msgid "Category Filter"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:23
+msgid "Specify your services item skin."
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:57
+#: templates/shortcodes/services/config.php:65
+msgid "Services Per Page"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:58
+#: templates/shortcodes/services/config.php:66
+msgid "Enter number of services per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:64
+#: templates/shortcodes/services/config.php:72
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:65
+#: templates/shortcodes/services/config.php:73
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:72
+#: templates/shortcodes/services/config.php:88
+msgid "Specify your services animation"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:90
+msgid "Slider Options"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:95
+#: templates/shortcodes/services/config.php:110
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:98
+#: templates/shortcodes/services-slider/config.php:108
+#: templates/shortcodes/services-slider/config.php:118
+#: templates/shortcodes/services/config.php:114
+#: templates/shortcodes/services/config.php:122
+#: templates/shortcodes/services/config.php:132
+#: templates/shortcodes/services/config.php:142
+msgid "Image Size"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:102
+#: templates/shortcodes/services/config.php:126
+msgid "Image ratio width"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:103
+#: templates/shortcodes/services/config.php:127
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:112
+#: templates/shortcodes/services/config.php:136
+msgid "Image ratio height"
+msgstr ""
+
+#: templates/shortcodes/services-slider/config.php:113
+#: templates/shortcodes/services/config.php:137
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: templates/shortcodes/services/config.php:9
+msgid "Display list of services"
+msgstr ""
+
+#: templates/shortcodes/services/config.php:79
+msgid "Paging"
+msgstr ""
+
+#: templates/shortcodes/services/config.php:118
+msgid "Image width"
+msgstr ""
+
+#: templates/single/navigation.php:7
+msgid "Previous"
+msgstr ""
+
+#: templates/single/navigation.php:8
+msgid "Next"
+msgstr ""
+
+#: templates/single/navigation.php:20
+#, php-format
+msgid "%s navigation"
+msgstr ""
+
+#: templates/single/share.php:13
+msgid "Share:"
+msgstr ""
+
+#: templates/single/share.php:24
+msgid "Facebook"
+msgstr ""
+
+#: templates/single/share.php:29
+msgid "Twitter"
+msgstr ""
+
+#: templates/single/share.php:34
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/single/share.php:39
+msgid "Tumblr"
+msgstr ""
+
+#: templates/single/share.php:45
+msgid "Pinterest"
+msgstr ""
+
+#: templates/single/share.php:50
+msgid "Email"
+msgstr ""
+
+#: templates/single/share.php:59
+msgid "Whats App"
+msgstr ""

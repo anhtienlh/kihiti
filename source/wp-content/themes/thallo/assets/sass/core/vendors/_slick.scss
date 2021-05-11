@@ -1,0 +1,8 @@
+.slick-dots li.slick-active,
+.slick-dots li:hover,
+.slick-arrow:active,
+.slick-dots li:active,
+.slick-arrow:focus,
+.slick-dots li:focus {
+	@extend %accent-text-color;
+}

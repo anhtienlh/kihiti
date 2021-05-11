@@ -1,0 +1,8 @@
+.g5staff__post-title {
+  margin: 0 !important;
+  font-size: 22px;
+  @include transition(all .3s);
+  a {
+    color: inherit !important;
+  }
+}

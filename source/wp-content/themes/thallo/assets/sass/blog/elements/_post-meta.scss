@@ -1,0 +1,48 @@
+ul.g5blog__post-meta {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  li {
+    display: inline;
+    margin-right: 0;
+    > * {
+      display: inline;
+    }
+
+    &:not(.meta-like) {
+      i{
+        display: none;
+      }
+    }
+
+    &.meta-like {
+      i {
+        position: relative;
+        top: 1px;
+      }
+    }
+
+    &.meta-author {
+      span {
+        @extend %accent-text-color;
+      }
+    }
+
+    a:hover {
+      @extend %accent-text-color;
+    }
+
+    &:not(:last-child) {
+      &:after {
+        content: '';
+        width: 2px;
+        height: 10px;
+        display: inline-block;
+        background-color: currentColor;
+        margin: 0 5px;
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+}

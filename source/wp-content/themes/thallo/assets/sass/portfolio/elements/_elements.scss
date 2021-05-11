@@ -1,0 +1,20 @@
+@import "post-title";
+@import "post-cat";
+@import "thumbnail";
+@import "post-excerpt";
+
+.white-text-color{
+	.g5portfolio__post-title {
+		color: inherit !important;
+		font-size: 16px;
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+	.g5portfolio__post-cat {
+		color: #c2c2c2;
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+
+.vc_chart .vc_chart-legend {
+	li{
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+	span {
+		height: 23px;
+		width: 23px;
+		@include border-radius(50%);
+		margin-right: 16px;
+	}
+}
+
+.custom-chart-size-130{
+	.vc_round-chart-canvas{
+		width: 130px !important;
+		height: 130px !important;
+	}
+}

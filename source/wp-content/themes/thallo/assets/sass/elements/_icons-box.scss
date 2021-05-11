@@ -1,0 +1,50 @@
+.gel-icon-box {
+	.title {
+		font-size: 20px;
+		&:hover {
+			@extend %accent-text-color;
+		}
+	}
+	.description p {
+		font-size: 15px;
+	}
+	.btn.btn-link {
+		color: #010101;
+		font-size: 12px;
+		&:after {
+			margin-left: 15px;
+			content: '\f061';
+			font-family: $font_icon;
+			@extend %accent-text-color;
+		}
+		&:hover {
+			@include box-shadow(none);
+			@extend %accent-text-color;
+		}
+	}
+	.btn-box {
+		margin-top: 13px;
+	}
+}
+
+.custom-icon-box-hover {
+	.gel-icon-box {
+		padding: 39px 31px 1px 31px;
+		@include transition(padding .3s, background .3s);
+		.btn-box {
+			opacity: 0;
+			@include transform(translateY(10px));
+			@include transition(all 0.2s ease-out 0s);
+		}
+	}
+	.gel-icon-box:hover, &:not(:hover) .gel-icon-box-active {
+		padding: 39px 31px;
+		@include box-shadow(0px 2px 18.9px 8.1px rgba(204, 204, 223, 0.15));
+		border-radius: 5px;
+		background: #fff;
+		.btn-box {
+			opacity: 1;
+			@include transform(translateY(0px));
+		}
+	}
+}

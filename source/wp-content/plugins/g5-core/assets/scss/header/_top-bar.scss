@@ -1,0 +1,64 @@
+.top-bar-desktop-border-bottom {
+	border-bottom: solid 1px #eee;
+}
+.g5core-top-bar {
+	background-color: #f6f6f6;
+	font-size: 0.75rem;
+
+	.g5core-social-networks a {
+		height: 28px;
+		width: 28px;
+		border: 0;
+		background-color: transparent;
+		font-size: 0.75rem;
+
+		i {
+			color: inherit;
+		}
+
+		&:hover {
+			color: inherit;
+		}
+	}
+	.g5core-social-networks li+li {
+		margin-left: 0;
+	}
+
+	.menu-horizontal {
+		.menu-item > a {
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			font-size: inherit;
+			line-height: 1.5;
+		}
+
+		.sub-menu {
+			color: #777;
+		}
+	}
+	.g5core-login-button a {
+		text-transform: uppercase;
+		font-size: inherit;
+		font-weight: 700;
+	}
+	.g5core-top-bar-item {
+		a {
+			color: inherit;
+		}
+	}
+}
+.g5core-top-bar-inner {
+	@include d-flex();
+}
+.g5core-top-bar-left,
+.g5core-top-bar-right {
+	@include d-flex();
+	@include align-items-center();
+}
+.g5core-top-bar-right {
+	margin-left: auto;
+}
+
+.g5core-top-bar-item + .g5core-top-bar-item {
+	margin-left: 1.5rem;
+}

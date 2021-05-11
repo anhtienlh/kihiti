@@ -1,0 +1,17 @@
+ul.g5staff__loop-social-profiles {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+	li {
+		display: inline-block;
+		a {
+			color: inherit;
+			@include transition(all .3s);
+		}
+	}
+
+	li + li {
+		margin-left: 10px;
+	}
+}

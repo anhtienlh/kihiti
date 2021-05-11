@@ -1,0 +1,93 @@
+.page-header {
+	padding: 255px 0 158px 0;
+	background-color: $color_background_page_title;
+	background: url("./assets/images/bg-page-title.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	@include media-md() {
+		padding: 158px 0;
+	}
+}
+
+
+
+.page-main-title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 0;
+	line-height: 1.2;
+	@extend %primary-color;
+	@extend %font-primary;
+	letter-spacing: -0.025em;
+	max-width: 800px;
+}
+
+.gel-page-title-style-02 {
+	.page-main-title {
+		max-width: 100%;
+	}
+}
+
+.page-sub-title {
+	font-size: 16px;
+	font-weight: 400;
+	p {
+		margin: 0;
+	}
+}
+
+ul.breadcrumbs {
+	@include d-flex();
+	@include flex-wrap();
+	margin: 0 0 12px 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	list-style: none;
+	text-transform: uppercase;
+	@extend %heading-color;
+
+	li.breadcrumb-sep {
+		margin: 0 5px;
+	}
+	li.breadcrumb-sep:last-child {
+		display: none!important;
+	}
+
+	li a {
+		color: inherit;
+		@include transition(color .3s);
+	}
+
+	li.breadcrumb-leaf {
+		@extend %accent-text-color;
+	}
+}
+
+.g5core-breadcrumbs{
+	font-size: 12px;
+	text-transform: uppercase;
+	@extend %heading-color;
+	font-weight: bold;
+	padding-bottom: 12px;
+	li.breadcrumb-leaf {
+		@extend %accent-text-color;
+	}
+	li.breadcrumb-sep{
+		margin: 0 5px;
+	}
+}
+.g5core-page-title{
+	background-color: $color_background_page_title;
+	background: url("./assets/images/bg-page-title.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.page-title-inner{
+		@include flex-column-reverse();
+		@include align-items-start();
+		padding: 255px 0 158px 0;
+	}
+}
+

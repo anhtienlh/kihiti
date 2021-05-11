@@ -1,0 +1,47 @@
+.g5core-site-branding .site-logo {
+	max-height: $logo_max_height;
+}
+.g5core-header-above .g5core-site-branding .site-logo,
+.g5core-header-bellow .g5core-site-branding .site-logo {
+	max-height: $logo_max_height;
+}
+
+.g5core-site-branding .site-logo-sticky {
+	max-height: ($header_height_sticky - 16px)/2;
+}
+.g5core-header-above .g5core-header-inner,
+.g5core-header-bellow .g5core-header-inner {
+	min-height: $header_above_height;
+}
+
+.g5core-header-inner {
+	min-height: $header_height;
+}
+.sticky-area-wrap.sticky .sticky-area .g5core-header-inner {
+	min-height: $header_height_sticky;
+}
+.sticky-area-wrap.sticky .sticky-area .menu-horizontal > .menu-item > a {
+	padding-top: ($header_height_sticky - 26)/2;
+	padding-bottom: ($header_height_sticky - 26)/2;
+}
+.g5core-site-header .sticky-area-wrap.sticky .sticky-area .g5core-site-branding .site-logo {
+	max-height: $header_height_sticky - 16px;
+}
+
+.g5core-mobile-header-inner {
+	min-height: $header_mobile_height;
+}
+.g5core-mobile-header-inner .site-logo {
+	max-height: $logo_mobile_max_height;
+}
+
+
+.sticky-area-wrap.sticky .g5core-mobile-header-inner {
+	min-height: $header_mobile_height_sticky;
+}
+.sticky-area-wrap.sticky .g5core-mobile-header-inner .g5core-site-branding {
+	height: $header_mobile_height_sticky - 16px;
+}
+.sticky-area-wrap.sticky .g5core-mobile-header-inner .site-logo {
+	max-height: $header_mobile_height_sticky - 16px;
+}

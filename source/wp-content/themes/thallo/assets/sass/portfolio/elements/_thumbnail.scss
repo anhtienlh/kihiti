@@ -1,0 +1,13 @@
+.g5portfolio__post-default{
+	.g5core__entry-thumbnail {
+		&:after {
+			@extend %accent-bg-color;
+		}
+	}
+}
+
+.g5portfolio__post-featured.active .g5core__entry-thumbnail:after,
+.g5portfolio__post-featured:hover .g5core__entry-thumbnail:after {
+	opacity: 0.7;
+}
+

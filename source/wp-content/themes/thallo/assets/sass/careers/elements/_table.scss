@@ -1,0 +1,49 @@
+table.g5careers__table {
+	thead {
+		th {
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: -0.025em;
+			@extend %heading-color;
+			border: none;
+			border-top: 5px solid;
+			@extend %border-color;
+			padding: 20px 1rem 20px 0;
+		}
+	}
+
+	td {
+		border: none;
+		border-top: 1px solid;
+		@extend %border-color;
+		font-size: 14px;
+		padding: 15px 1rem 15px 0;
+	}
+	a:hover {
+		@extend %accent-text-color;
+	}
+}
+table.g5careers__table-responsive {
+	tbody {
+		td {
+			&:after {
+				@extend %heading-color;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	table.g5careers__table-responsive {
+		tbody {
+			td {
+				padding-right: 0;
+				&:after {
+					font-size: 16px;
+					font-weight: bold;
+					letter-spacing: -0.025em;
+				}
+			}
+		}
+	}
+}

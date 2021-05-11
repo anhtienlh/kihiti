@@ -1,0 +1,146 @@
+//----------------------------------------------------------------------
+// Button style
+//----------------------------------------------------------------------
+.btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	position: relative;
+	display: inline-block;
+	@include button-size($height__input, 30px, 12px);
+	font-weight: 700;
+	border: solid 2px transparent;
+	white-space: nowrap;
+	text-transform: uppercase;
+	@include border-radius(5em);
+	@include button-variant(contrast-color($color_accent), $color_accent, $color_accent);
+	@include transition(color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out);
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:focus {
+		outline: none;
+		@include box-shadow(none);
+	}
+	&:disabled {
+		opacity: 0.65;
+		cursor: default;
+	}
+}
+
+.btn {
+	&.btn-block,
+	&.btn-full {
+		display: block;
+		width: 100%;
+	}
+	&.btn-inline {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	&.btn-sm {
+		@include button-size(40px, 25px, 13px);
+	}
+	&.btn-md {
+		@include button-size($height__input, 30px, 14px);
+	}
+	&.btn-lg {
+		@include button-size(55px, 30px, 14px);
+	}
+	&.btn-xl {
+		@include button-size(60px, 30px, 14px);
+	}
+
+	// Button style
+	&.btn-round {
+		@include border-radius(5em);
+	}
+	&.btn-rounded {
+		@include border-radius(0.25rem);
+	}
+	&.btn-square {
+		@include border-radius(0);
+	}
+
+	// Button color
+	&.btn-accent {
+		@include button-variant(contrast-color($color_accent), $color_accent, $color_accent);
+	}
+
+	// Button color
+	&.btn-primary {
+		@include button-variant(#fff, $color_primary, $color_primary);
+	}
+
+	&.btn-secondary {
+		@include button-variant(#fff, $color_secondary, $color_secondary);
+	}
+
+	&.btn-light {
+		@include button-variant(#222, $color_light, $color_light);
+	}
+
+	&.btn-dark {
+		@include button-variant(#fff, $color_dark, $color_dark);
+	}
+
+	&.btn-gray {
+		@include button-variant(contrast-color($color_gray), $color_gray, $color_gray);
+	}
+
+	&.btn-white {
+		@include button-variant(#222, #fff, #fff);
+		&.btn-outline {
+			color: #fff;
+		}
+	}
+	&.btn.btn-outline {
+		background-color: transparent;
+	}
+
+	&.btn-icon-left i {
+		margin-right: 10px;
+	}
+
+	&.btn-icon-right i {
+		margin-left: 10px;
+	}
+
+	&.btn-outline {
+		background-color: transparent;
+	}
+
+	&.btn-3d,
+	&.btn-3d:hover {
+		border-bottom: solid 3px rgba(0, 0, 0, 0.15) !important;
+	}
+
+	&.btn-gradient {
+		background-size: 200% auto;
+		@include transition(background-position .5s);
+		border: none;
+		&:hover {
+			background-position: right center;
+		}
+	}
+
+	&.btn-link {
+		background-color: transparent !important;
+		border-width: 0 !important;
+		text-decoration: none;
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+		line-height: 2;
+		@include border-radius(0);
+	}
+	&.btn-link:hover,
+	&.btn-link:focus,
+	&.btn-link:active {
+		@include box-shadow(inset 0 -1px 0 currentColor);
+	}
+
+}
